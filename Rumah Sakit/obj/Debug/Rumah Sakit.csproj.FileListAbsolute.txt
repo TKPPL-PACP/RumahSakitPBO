@@ -1,0 +1,2 @@
+E:\mikroskil\Semester 4\PBO\Rumah Sakit\bin\Debug\Rumah Sakit.exe.config
+E:\mikroskil\Semester 4\Pemrograman\RumahSakitPBO\Rumah Sakit\bin\Debug\Rumah Sakit.exe.config
