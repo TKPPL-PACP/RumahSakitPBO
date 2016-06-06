@@ -16,8 +16,9 @@ namespace Rumah_Sakit.Class
         public clsJanjiDokter()
         { }
 
-        public clsJanjiDokter(int idPasien, int idDokter, DateTime waktuBertemu)
+        public clsJanjiDokter(int id, int idPasien, int idDokter, DateTime waktuBertemu)
         {
+            this.id = id;
             this.idPasien = idPasien;
             this.idDokter = idDokter;
             this.waktuBertemu = waktuBertemu;

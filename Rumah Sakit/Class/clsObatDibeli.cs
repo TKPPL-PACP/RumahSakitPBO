@@ -8,11 +8,10 @@ namespace Rumah_Sakit.Class
 {
     class clsObatDibeli
     {
-        private int id;
-        private int idObat { set; get; }
-        private double kuantitas { set; get; }
+        public int idObat { private set; get; }
+        public double kuantitas { private set; get; }
 
-        private string deskripsi { set; get; }
+        public string deskripsi { private set; get; }
         public clsObatDibeli(int idObat, double kuantitas, string deskripsi)
         {
             this.idObat = idObat;

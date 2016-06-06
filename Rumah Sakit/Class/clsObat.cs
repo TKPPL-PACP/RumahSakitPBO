@@ -8,7 +8,7 @@ namespace Rumah_Sakit.Class
 {
     class clsObat
     {
-        private int id;
+        public int id { private set; get; }
         public string nama;
         //untuk dosis pke deskripsi aja deh, rancu :D
         public string deskripsi { set; get; }
@@ -21,8 +21,9 @@ namespace Rumah_Sakit.Class
         public clsObat()
         { }
 
-        public clsObat(string nama, string deskripsi,double harga, int stock, string satuan)
+        public clsObat(int id, string nama, string deskripsi,double harga, int stock, string satuan)
         {
+            this.id = id;
             this.nama = nama;
             this.deskripsi = deskripsi;
             this.harga = harga;

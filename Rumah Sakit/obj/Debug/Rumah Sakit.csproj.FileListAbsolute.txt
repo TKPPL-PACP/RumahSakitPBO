@@ -1,2 +1,10 @@
 E:\mikroskil\Semester 4\PBO\Rumah Sakit\bin\Debug\Rumah Sakit.exe.config
 E:\mikroskil\Semester 4\Pemrograman\RumahSakitPBO\Rumah Sakit\bin\Debug\Rumah Sakit.exe.config
+E:\mikroskil\Semester 4\Pemrograman\RumahSakitPBO\Rumah Sakit\bin\Debug\Rumah Sakit.exe
+E:\mikroskil\Semester 4\Pemrograman\RumahSakitPBO\Rumah Sakit\bin\Debug\Rumah Sakit.pdb
+E:\mikroskil\Semester 4\Pemrograman\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah Sakit.csprojResolveAssemblyReference.cache
+E:\mikroskil\Semester 4\Pemrograman\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.Form1.resources
+E:\mikroskil\Semester 4\Pemrograman\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.Properties.Resources.resources
+E:\mikroskil\Semester 4\Pemrograman\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah Sakit.csproj.GenerateResource.Cache
+E:\mikroskil\Semester 4\Pemrograman\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah Sakit.exe
+E:\mikroskil\Semester 4\Pemrograman\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah Sakit.pdb
