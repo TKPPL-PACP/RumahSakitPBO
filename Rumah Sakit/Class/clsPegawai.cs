@@ -31,9 +31,10 @@ namespace Rumah_Sakit.Class
         public clsPegawai()
         { }
 
-        public clsPegawai(string nama, int jenisKelamin, string alamat, 
+        public clsPegawai(int id, string nama, int jenisKelamin, string alamat, 
                           double gaji, DateTime tanggalMasuk, int profesi)
         {
+            this.id = id;
             this.nama = nama;
             this.jenisKelamin = (gender) jenisKelamin;
             this.alamat = alamat;
@@ -42,9 +43,14 @@ namespace Rumah_Sakit.Class
             this.profesi = (job)profesi;
         }
 
-        public void tambahPegawai()
+        public static clsPegawai cariPegawai(int id)
         {
+            clsPegawai pegawaiDicari = new clsPegawai();
 
+            //cari pada database id dari pegawai yang akan dicari 
+            //kemudian di masukkan kedalam variable pegawai dicari
+
+            return pegawaiDicari;
         }
     }
 }

@@ -22,9 +22,10 @@ namespace Rumah_Sakit.Class
         public DateTime tanggalLahir { set; get; }
         public clsPasien()
         { }
-        public clsPasien(string nama,int jenisKelamin, string penyakit, 
+        public clsPasien(int id, string nama,int jenisKelamin, string penyakit, 
                          string alamat, DateTime tanggalLahir)
         {
+            this.id = id;
             this.nama = nama;
             this.jenisKelamin = (gender) jenisKelamin;
             this.penyakit = penyakit;
@@ -32,9 +33,13 @@ namespace Rumah_Sakit.Class
             this.tanggalLahir = tanggalLahir;
         }
 
-        public void tambahPasien()
+        public static clsPasien cariPasien(int id)
         {
+            clsPasien pasienDicari = new clsPasien();
 
+            // cari pada database dengan id sekian lalu masukan ke pasienDicari
+
+            return pasienDicari;
         }
     }
 }
