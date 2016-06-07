@@ -33,7 +33,7 @@ namespace Rumah_Sakit.Class
             this.tanggalLahir = tanggalLahir;
         }
 
-        public static clsPasien cariPasien(int id)
+        public static clsPasien cariPasienById(int id)
         {
             clsPasien pasienDicari = new clsPasien();
 

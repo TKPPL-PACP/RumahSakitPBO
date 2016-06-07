@@ -49,6 +49,7 @@
     <Compile Include="Class\clsObatDibeli.cs" />
     <Compile Include="Class\clsPasien.cs" />
     <Compile Include="Class\clsPegawai.cs" />
+    <Compile Include="Class\clsPembayaran.cs" />
     <Compile Include="Class\clsRawatInap.cs" />
     <Compile Include="Class\clsResepObat.cs" />
     <Compile Include="Class\clsKamar.cs" />

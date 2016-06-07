@@ -15,14 +15,15 @@ namespace Rumah_Sakit.Class
         public int idPasien { set; get; }
         //dokter yang kasih resep
         public int idPegawai { set; get; }
-        
+        public int idPembayaran { set; get; }
         public clsResepObat()
         { }
 
-        public clsResepObat(int idPasien, int idPegawai)
+        public clsResepObat(int idPasien, int idPegawai,int idPembayaran)
         {
             this.idPasien = idPasien;
             this.idPegawai = idPegawai;
+            this.idPembayaran = idPembayaran;
             this.lstObatDibeli = new List<clsObatDibeli> { };
         }
 
@@ -49,7 +50,7 @@ namespace Rumah_Sakit.Class
             return resepObatDicari;
         }
 
-        public int cariObat(int idObat)
+        public int cariObatByIdObat(int idObat)
         {
             return this.lstObatDibeli.FindIndex(x => x.idObat == idObat);
         }
@@ -61,19 +62,29 @@ namespace Rumah_Sakit.Class
 
         public void deleteObat(int idObat)
         {
-            int ind = this.cariObat(idObat);
+            int ind = this.cariObatByIdObat(idObat);
             if(ind > -1)
             {
                 this.lstObatDibeli.RemoveAt(ind);
             }
         }
 
+        public void InsertResepObat()
+        {
+            //insert this ke dalam database
+        }
+
+        public void UpdateResepObat()
+        {
+            //update data ke tabel resep obat berdasarkan this.id
+        }
         public void tebusResepObat()
         {
             foreach(clsObatDibeli obatDibeli in this.lstObatDibeli)
             {
                 //lakukan proses pengurangan obat pada database dari setiap list obat yang ada
             }
+            //update status pembayaran by idPembayaran, dan update uang yang terbayarkan.
         }
     }
 }

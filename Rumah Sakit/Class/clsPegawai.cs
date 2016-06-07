@@ -43,7 +43,7 @@ namespace Rumah_Sakit.Class
             this.profesi = (job)profesi;
         }
 
-        public static clsPegawai cariPegawai(int id)
+        public static clsPegawai cariPegawaiById(int id)
         {
             clsPegawai pegawaiDicari = new clsPegawai();
 

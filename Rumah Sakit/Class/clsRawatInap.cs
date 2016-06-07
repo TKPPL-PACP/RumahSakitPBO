@@ -9,18 +9,41 @@ namespace Rumah_Sakit.Class
     class clsRawatInap
     {
         public int id { private set; get; }
-        public int idKamar { private set; get; }
-        public int idPasien { private set; get; }
-        public DateTime tanggalMasuk { set; get; }        
-       
+        public int idKamar { set; get; }
+        public int idPasien { set; get; }
+        public int idPembayaran { set; get; }
+        public DateTime tanggalMasuk { set; get; }
+        public DateTime tanggalKeluar { set; get; }
         public clsRawatInap()
         { }
-        public clsRawatInap(int id, int idKamar, int idPasien, DateTime tanggalMasuk)
+        public clsRawatInap(int id, int idKamar, int idPasien, 
+                            DateTime tanggalMasuk,DateTime tanggalKeluar)
         {
             this.id = id;
             this.idKamar = idKamar;
             this.idPasien = idPasien;
             this.tanggalMasuk = tanggalMasuk;
+            this.tanggalKeluar = tanggalKeluar;
+        }
+        public void InsertRawatInap()
+        {
+            clsKamar kamar = clsKamar.cariKamarById(this.idKamar);
+            if(kamar.isKamarFull() == false)
+            {
+                //insert data kedalam database rawat inap
+
+                kamar.terisi++;
+                kamar.updateKamar();
+            }
+        }
+        public void UpdateRawatInap()
+        {
+            //update this pada database berdasarkan this.id
+        }
+        public void CheckOut()
+        {
+            this.tanggalKeluar = DateTime.Now;
+
         }
     }
 }

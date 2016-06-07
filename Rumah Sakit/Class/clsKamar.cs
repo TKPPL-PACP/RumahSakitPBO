@@ -40,8 +40,22 @@ namespace Rumah_Sakit.Class
 
             return lstKamar;
         }
+        
+        public bool isKamarFull()
+        {
+            return kapasitas == terisi;
+        }
 
-        public clsKamar cariKamarById(int id)
+        public void insertKamar()
+        {
+            //masukkan this kedalam database
+        }
+
+        public void updateKamar()
+        {
+            //update this pada database berdasarkan this.id
+        }
+        public static clsKamar cariKamarById(int id)
         {
             clsKamar kamarDicari = new clsKamar();
 
