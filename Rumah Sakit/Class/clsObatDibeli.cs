@@ -8,7 +8,7 @@ namespace Rumah_Sakit.Class
 {
     class clsObatDibeli
     {
-        public int idObat { private set; get; }
+        public int idObat { set; get; }
         public double kuantitas { private set; get; }
 
         public string deskripsi { private set; get; }
