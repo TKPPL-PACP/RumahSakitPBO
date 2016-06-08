@@ -9,7 +9,7 @@ namespace Rumah_Sakit.Class
 {
     class clsResepObat
     {
-        private int id;
+        public int id { set; get; }
         public List<clsObatDibeli> lstObatDibeli;
         //pasien yang menerima
         public int idPasien { set; get; }

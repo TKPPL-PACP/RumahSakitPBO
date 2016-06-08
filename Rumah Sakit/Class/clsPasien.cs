@@ -14,7 +14,7 @@ namespace Rumah_Sakit.Class
             Wanita = 0,
             Pria = 1
         }
-        private int id;
+        public int id { set; get; }
         public string nama { set; get; }
         public gender jenisKelamin { set; get; }
         public string penyakit { set; get; }
