@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Rumah_Sakit
 {
-    public partial class Form5 : Form
+    public partial class RegisterPasien : Form
     {
-        public Form5()
+        public RegisterPasien()
         {
             InitializeComponent();
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
         }
     }
 }

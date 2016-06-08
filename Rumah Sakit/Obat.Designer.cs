@@ -1,6 +1,6 @@
 ﻿namespace Rumah_Sakit
 {
-    partial class Form4
+    partial class Obat
     {
         /// <summary>
         /// Required designer variable.
@@ -45,7 +45,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -103,7 +102,7 @@
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Location = new System.Drawing.Point(16, 123);
+            this.groupBox1.Location = new System.Drawing.Point(14, 73);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(328, 236);
             this.groupBox1.TabIndex = 4;
@@ -208,21 +207,11 @@
             this.label3.TabIndex = 0;
             this.label3.Text = "Stok :";
             // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(117, 81);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(124, 31);
-            this.button3.TabIndex = 5;
-            this.button3.Text = "Tampilkan List Obat";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(354, 374);
-            this.Controls.Add(this.button3);
+            this.ClientSize = new System.Drawing.Size(354, 319);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox2);
@@ -257,6 +246,5 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button3;
     }
 }

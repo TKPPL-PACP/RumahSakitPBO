@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace Rumah_Sakit
 {
-    public partial class Form3 : Form
+    public partial class Obat : Form
     {
-        public Form3()
+        public Obat()
         {
             InitializeComponent();
-        }
-
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

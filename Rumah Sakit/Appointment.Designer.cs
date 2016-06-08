@@ -1,6 +1,6 @@
 ﻿namespace Rumah_Sakit
 {
-    partial class Form3
+    partial class Appointment
     {
         /// <summary>
         /// Required designer variable.
