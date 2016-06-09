@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace Rumah_Sakit
 {
-    public partial class Appointment : Form
+    public partial class frmKamar : Form
     {
-        public Appointment()
+        public frmKamar()
         {
             InitializeComponent();
-        }
-
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

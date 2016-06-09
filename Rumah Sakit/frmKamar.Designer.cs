@@ -1,6 +1,6 @@
 ﻿namespace Rumah_Sakit
 {
-    partial class FormKamar
+    partial class frmKamar
     {
         /// <summary>
         /// Required designer variable.

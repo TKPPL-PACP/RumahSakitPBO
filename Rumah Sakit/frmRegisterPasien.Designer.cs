@@ -1,6 +1,6 @@
 ﻿namespace Rumah_Sakit
 {
-    partial class RegisterPasien
+    partial class frmRegisterPasien
     {
         /// <summary>
         /// Required designer variable.

@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Rumah_Sakit
 {
-    public partial class ListTabel : Form
+    public partial class frmRegisterPasien : Form
     {
-        public ListTabel()
+        public frmRegisterPasien()
         {
             InitializeComponent();
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
         }
     }
 }

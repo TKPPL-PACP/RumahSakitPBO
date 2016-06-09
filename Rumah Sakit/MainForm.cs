@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Rumah_Sakit
 {
-    public partial class Obat : Form
+    public partial class MainForm : Form
     {
-        public Obat()
+        public MainForm()
         {
             InitializeComponent();
         }

@@ -1,6 +1,6 @@
 ﻿namespace Rumah_Sakit
 {
-    partial class Obat
+    partial class frmObat
     {
         /// <summary>
         /// Required designer variable.

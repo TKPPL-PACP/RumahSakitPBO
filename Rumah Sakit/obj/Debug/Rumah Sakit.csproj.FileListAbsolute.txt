@@ -10,3 +10,4 @@ E:\mikroskil\Semester 4\Pemrograman\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah Sa
 E:\mikroskil\Semester 4\Pemrograman\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah Sakit.pdb
 D:\ProjectPBO\RumahSakitPBO\Rumah Sakit\bin\Debug\Rumah Sakit.exe.config
 C:\Users\Thomas Yap\Desktop\PBO\RumahSakitPBO\Rumah Sakit\bin\Debug\Rumah Sakit.exe.config
+D:\Semester 4\pbo\RumahSakitPBO\Rumah Sakit\bin\Debug\Rumah Sakit.exe.config

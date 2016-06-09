@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Rumah_Sakit
 {
-    public partial class CariKamar : Form
+    public partial class frmDetailKamar : Form
     {
-        public CariKamar()
+        public frmDetailKamar()
         {
             InitializeComponent();
         }

@@ -1,6 +1,6 @@
 ﻿namespace Rumah_Sakit
 {
-    partial class ListTabel
+    partial class frmListTabel
     {
         /// <summary>
         /// Required designer variable.
