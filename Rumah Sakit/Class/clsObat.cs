@@ -30,5 +30,14 @@ namespace Rumah_Sakit.Class
             this.stock = stock;
             this.satuan = satuan;
         }
+
+        public void insertObat()
+        {
+            //masukkan this ke dalam database
+        }
+        public void updateObat()
+        {
+            //update this berdasarkan this.id
+        }
     }
 }
