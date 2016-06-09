@@ -42,7 +42,14 @@ namespace Rumah_Sakit.Class
             this.tanggalMasuk = tanggalMasuk;
             this.profesi = (job)profesi;
         }
-
+        public void insertPegawai()
+        {
+            //masukkan this ke dalam database
+        }
+        public void updatePegawai()
+        {
+            //update this berdasarkan this.id
+        }
         public static clsPegawai cariPegawaiById(int id)
         {
             clsPegawai pegawaiDicari = new clsPegawai();

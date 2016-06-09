@@ -44,7 +44,21 @@ namespace Rumah_Sakit.Class
         public void CheckOut()
         {
             this.tanggalKeluar = DateTime.Now;
+            this.UpdateRawatInap();
+        }
+        public void PindahKamar(int idKamarTujuan)
+        {
+            clsKamar kamar = clsKamar.cariKamarById(idKamarTujuan);
+            clsKamar kamarSekarang = clsKamar.cariKamarById(this.idKamar);
+            if(kamar.isKamarFull() == false)
+            {
+                //insert data kedalam database rawat inap
 
+                kamar.terisi++;
+                kamar.updateKamar();
+                kamarSekarang.terisi--;
+                kamarSekarang.updateKamar();
+            }
         }
     }
 }

@@ -32,7 +32,14 @@ namespace Rumah_Sakit.Class
             this.alamat = alamat;
             this.tanggalLahir = tanggalLahir;
         }
-
+        public void insertPasien()
+        {
+            //masukkan this ke dalam database
+        }
+        public void updatePasien()
+        {
+            //update this berdasarkan this.id
+        }
         public static clsPasien cariPasienById(int id)
         {
             clsPasien pasienDicari = new clsPasien();
