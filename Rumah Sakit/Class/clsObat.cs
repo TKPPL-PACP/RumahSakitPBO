@@ -8,7 +8,7 @@ namespace Rumah_Sakit.Class
 {
     class clsObat
     {
-        public int id { private set; get; }
+        public int id { set; get; }
         public string nama;
         //untuk dosis pke deskripsi aja deh, rancu :D
         public string deskripsi { set; get; }

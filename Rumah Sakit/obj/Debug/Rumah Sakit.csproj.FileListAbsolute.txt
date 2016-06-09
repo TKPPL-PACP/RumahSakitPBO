@@ -8,3 +8,5 @@ E:\mikroskil\Semester 4\Pemrograman\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sa
 E:\mikroskil\Semester 4\Pemrograman\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah Sakit.csproj.GenerateResource.Cache
 E:\mikroskil\Semester 4\Pemrograman\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah Sakit.exe
 E:\mikroskil\Semester 4\Pemrograman\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah Sakit.pdb
+D:\ProjectPBO\RumahSakitPBO\Rumah Sakit\bin\Debug\Rumah Sakit.exe.config
+C:\Users\Thomas Yap\Desktop\PBO\RumahSakitPBO\Rumah Sakit\bin\Debug\Rumah Sakit.exe.config

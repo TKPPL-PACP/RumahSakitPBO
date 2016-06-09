@@ -44,6 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CariKamar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CariKamar.Designer.cs">
+      <DependentUpon>CariKamar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Class\clsJanjiDokter.cs" />
     <Compile Include="Class\clsObat.cs" />
     <Compile Include="Class\clsObatDibeli.cs" />
@@ -53,16 +59,73 @@
     <Compile Include="Class\clsRawatInap.cs" />
     <Compile Include="Class\clsResepObat.cs" />
     <Compile Include="Class\clsKamar.cs" />
+    <Compile Include="DetailKamar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetailKamar.Designer.cs">
+      <DependentUpon>DetailKamar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="RegisterPasien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegisterPasien.Designer.cs">
+      <DependentUpon>RegisterPasien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Appointment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Appointment.Designer.cs">
+      <DependentUpon>Appointment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Obat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Obat.Designer.cs">
+      <DependentUpon>Obat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListTabel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListTabel.Designer.cs">
+      <DependentUpon>ListTabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormKamar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormKamar.Designer.cs">
+      <DependentUpon>FormKamar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CariKamar.resx">
+      <DependentUpon>CariKamar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetailKamar.resx">
+      <DependentUpon>DetailKamar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegisterPasien.resx">
+      <DependentUpon>RegisterPasien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Appointment.resx">
+      <DependentUpon>Appointment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Obat.resx">
+      <DependentUpon>Obat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListTabel.resx">
+      <DependentUpon>ListTabel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormKamar.resx">
+      <DependentUpon>FormKamar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

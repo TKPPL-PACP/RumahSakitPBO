@@ -14,6 +14,7 @@ namespace Rumah_Sakit.Class
         public int idPembayaran { set; get; }
         public DateTime tanggalMasuk { set; get; }
         public DateTime tanggalKeluar { set; get; }
+
         public clsRawatInap()
         { }
         public clsRawatInap(int id, int idKamar, int idPasien, 

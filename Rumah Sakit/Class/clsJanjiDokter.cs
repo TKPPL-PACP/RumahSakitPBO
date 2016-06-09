@@ -8,7 +8,7 @@ namespace Rumah_Sakit.Class
 {
     class clsJanjiDokter
     {
-        private int id;
+        public int id { set; get; }
         public int idPasien { set; get; }
         public int idDokter { set; get; }
         public DateTime waktuBertemu { set; get; }

@@ -20,7 +20,7 @@ namespace Rumah_Sakit.Class
             Administrator = 2,
             Janitor = 3
         }
-        private int id;
+        public int id { set; get; }
         private string nip;
         public string nama { set; get; }
         public gender jenisKelamin { set; get; }

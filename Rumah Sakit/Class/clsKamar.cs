@@ -15,7 +15,7 @@ namespace Rumah_Sakit.Class
 
     class clsKamar
     {
-        public int id { private set; get; }
+        public int id { set; get; }
         public int nomorKamar { set; get; }
         public int lantai { set; get; }
         public jenisKamar jenisKamar { set; get; } 
