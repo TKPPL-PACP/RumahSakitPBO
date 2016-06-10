@@ -30,18 +30,18 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.txtIdObat = new System.Windows.Forms.TextBox();
+            this.txtNama = new System.Windows.Forms.TextBox();
+            this.btnCari = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.btnSave = new System.Windows.Forms.Button();
+            this.rtxtDesc = new System.Windows.Forms.RichTextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtStok = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtHarga = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cmbSatuan = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -66,39 +66,39 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Nama ";
             // 
-            // textBox1
+            // txtIdObat
             // 
-            this.textBox1.Location = new System.Drawing.Point(74, 21);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(183, 20);
-            this.textBox1.TabIndex = 2;
+            this.txtIdObat.Location = new System.Drawing.Point(74, 21);
+            this.txtIdObat.Name = "txtIdObat";
+            this.txtIdObat.Size = new System.Drawing.Size(183, 20);
+            this.txtIdObat.TabIndex = 2;
             // 
-            // textBox2
+            // txtNama
             // 
-            this.textBox2.Location = new System.Drawing.Point(74, 47);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(183, 20);
-            this.textBox2.TabIndex = 2;
+            this.txtNama.Location = new System.Drawing.Point(74, 47);
+            this.txtNama.Name = "txtNama";
+            this.txtNama.Size = new System.Drawing.Size(183, 20);
+            this.txtNama.TabIndex = 2;
             // 
-            // button1
+            // btnCari
             // 
-            this.button1.Location = new System.Drawing.Point(263, 21);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 46);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "&Cari";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnCari.Location = new System.Drawing.Point(263, 21);
+            this.btnCari.Name = "btnCari";
+            this.btnCari.Size = new System.Drawing.Size(75, 46);
+            this.btnCari.TabIndex = 3;
+            this.btnCari.Text = "&Cari";
+            this.btnCari.UseVisualStyleBackColor = true;
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.richTextBox1);
+            this.groupBox1.Controls.Add(this.btnSave);
+            this.groupBox1.Controls.Add(this.rtxtDesc);
             this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.textBox4);
+            this.groupBox1.Controls.Add(this.txtStok);
             this.groupBox1.Controls.Add(this.label8);
-            this.groupBox1.Controls.Add(this.textBox3);
+            this.groupBox1.Controls.Add(this.txtHarga);
             this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.comboBox1);
+            this.groupBox1.Controls.Add(this.cmbSatuan);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label3);
@@ -109,22 +109,22 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Keterangan";
             // 
-            // button2
+            // btnSave
             // 
-            this.button2.Location = new System.Drawing.Point(247, 207);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "&Save";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnSave.Location = new System.Drawing.Point(247, 207);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(75, 23);
+            this.btnSave.TabIndex = 7;
+            this.btnSave.Text = "&Save";
+            this.btnSave.UseVisualStyleBackColor = true;
             // 
-            // richTextBox1
+            // rtxtDesc
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(90, 106);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(232, 95);
-            this.richTextBox1.TabIndex = 6;
-            this.richTextBox1.Text = "";
+            this.rtxtDesc.Location = new System.Drawing.Point(90, 106);
+            this.rtxtDesc.Name = "rtxtDesc";
+            this.rtxtDesc.Size = new System.Drawing.Size(232, 95);
+            this.rtxtDesc.TabIndex = 6;
+            this.rtxtDesc.Text = "";
             // 
             // label7
             // 
@@ -135,12 +135,12 @@
             this.label7.TabIndex = 5;
             this.label7.Text = "Deskripsi";
             // 
-            // textBox4
+            // txtStok
             // 
-            this.textBox4.Location = new System.Drawing.Point(90, 52);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(157, 20);
-            this.textBox4.TabIndex = 4;
+            this.txtStok.Location = new System.Drawing.Point(90, 52);
+            this.txtStok.Name = "txtStok";
+            this.txtStok.Size = new System.Drawing.Size(157, 20);
+            this.txtStok.TabIndex = 4;
             // 
             // label8
             // 
@@ -151,12 +151,12 @@
             this.label8.TabIndex = 3;
             this.label8.Text = "Tambah Stok";
             // 
-            // textBox3
+            // txtHarga
             // 
-            this.textBox3.Location = new System.Drawing.Point(90, 78);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(157, 20);
-            this.textBox3.TabIndex = 4;
+            this.txtHarga.Location = new System.Drawing.Point(90, 78);
+            this.txtHarga.Name = "txtHarga";
+            this.txtHarga.Size = new System.Drawing.Size(157, 20);
+            this.txtHarga.TabIndex = 4;
             // 
             // label6
             // 
@@ -167,18 +167,18 @@
             this.label6.TabIndex = 3;
             this.label6.Text = "Harga ";
             // 
-            // comboBox1
+            // cmbSatuan
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cmbSatuan.FormattingEnabled = true;
+            this.cmbSatuan.Items.AddRange(new object[] {
             "gram",
             "butir",
             "tablet",
             "botol"});
-            this.comboBox1.Location = new System.Drawing.Point(212, 25);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(110, 21);
-            this.comboBox1.TabIndex = 2;
+            this.cmbSatuan.Location = new System.Drawing.Point(212, 25);
+            this.cmbSatuan.Name = "cmbSatuan";
+            this.cmbSatuan.Size = new System.Drawing.Size(110, 21);
+            this.cmbSatuan.TabIndex = 2;
             // 
             // label4
             // 
@@ -207,18 +207,18 @@
             this.label3.TabIndex = 0;
             this.label3.Text = "Stok :";
             // 
-            // Form4
+            // frmObat
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(354, 319);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.btnCari);
+            this.Controls.Add(this.txtNama);
+            this.Controls.Add(this.txtIdObat);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form4";
+            this.Name = "frmObat";
             this.Text = "Obat";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -231,18 +231,18 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox txtIdObat;
+        private System.Windows.Forms.TextBox txtNama;
+        private System.Windows.Forms.Button btnCari;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.Button btnSave;
+        private System.Windows.Forms.RichTextBox rtxtDesc;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtStok;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtHarga;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cmbSatuan;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label3;

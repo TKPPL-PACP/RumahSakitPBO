@@ -32,16 +32,14 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.numQty = new System.Windows.Forms.NumericUpDown();
+            this.cmbJnsKamar = new System.Windows.Forms.ComboBox();
+            this.cmbLantai = new System.Windows.Forms.ComboBox();
+            this.txtNoKamar = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numQty)).BeginInit();
             this.SuspendLayout();
             // 
             // label5
@@ -80,15 +78,6 @@
             this.label2.TabIndex = 6;
             this.label2.Text = "Nomor Kamar";
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(44, 34);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(51, 13);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "ID Kamar";
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -98,42 +87,35 @@
             this.label6.TabIndex = 10;
             this.label6.Text = "Ketersediaan";
             // 
-            // numericUpDown1
+            // numQty
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(147, 138);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(76, 20);
-            this.numericUpDown1.TabIndex = 19;
+            this.numQty.Location = new System.Drawing.Point(147, 138);
+            this.numQty.Name = "numQty";
+            this.numQty.Size = new System.Drawing.Size(76, 20);
+            this.numQty.TabIndex = 19;
             // 
-            // comboBox2
+            // cmbJnsKamar
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(147, 110);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(53, 21);
-            this.comboBox2.TabIndex = 18;
+            this.cmbJnsKamar.FormattingEnabled = true;
+            this.cmbJnsKamar.Location = new System.Drawing.Point(147, 110);
+            this.cmbJnsKamar.Name = "cmbJnsKamar";
+            this.cmbJnsKamar.Size = new System.Drawing.Size(53, 21);
+            this.cmbJnsKamar.TabIndex = 18;
             // 
-            // comboBox1
+            // cmbLantai
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(147, 83);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(53, 21);
-            this.comboBox1.TabIndex = 17;
+            this.cmbLantai.FormattingEnabled = true;
+            this.cmbLantai.Location = new System.Drawing.Point(147, 83);
+            this.cmbLantai.Name = "cmbLantai";
+            this.cmbLantai.Size = new System.Drawing.Size(53, 21);
+            this.cmbLantai.TabIndex = 17;
             // 
-            // textBox2
+            // txtNoKamar
             // 
-            this.textBox2.Location = new System.Drawing.Point(147, 57);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(76, 20);
-            this.textBox2.TabIndex = 16;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(147, 31);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(76, 20);
-            this.textBox1.TabIndex = 15;
+            this.txtNoKamar.Location = new System.Drawing.Point(147, 57);
+            this.txtNoKamar.Name = "txtNoKamar";
+            this.txtNoKamar.Size = new System.Drawing.Size(76, 20);
+            this.txtNoKamar.TabIndex = 16;
             // 
             // label7
             // 
@@ -153,27 +135,25 @@
             this.button1.Text = "&Kembali";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // DetailKamar
+            // frmDetailKamar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.numericUpDown1);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.numQty);
+            this.Controls.Add(this.cmbJnsKamar);
+            this.Controls.Add(this.cmbLantai);
+            this.Controls.Add(this.txtNoKamar);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Name = "DetailKamar";
+            this.Name = "frmDetailKamar";
             this.Text = "DetailKamar";
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numQty)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -185,13 +165,11 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.NumericUpDown numQty;
+        private System.Windows.Forms.ComboBox cmbJnsKamar;
+        private System.Windows.Forms.ComboBox cmbLantai;
+        private System.Windows.Forms.TextBox txtNoKamar;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button button1;
     }

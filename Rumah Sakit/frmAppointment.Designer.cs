@@ -31,23 +31,23 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtIdDokter = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.txtJam1 = new System.Windows.Forms.TextBox();
+            this.btnCek = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.label7 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.textBox5 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.btnSave = new System.Windows.Forms.Button();
+            this.txtDurasi = new System.Windows.Forms.TextBox();
+            this.txtJam2 = new System.Windows.Forms.TextBox();
+            this.txtIdPasien = new System.Windows.Forms.TextBox();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.cmbAvail = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -78,12 +78,12 @@
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
             this.dateTimePicker1.TabIndex = 2;
             // 
-            // textBox1
+            // txtIdDokter
             // 
-            this.textBox1.Location = new System.Drawing.Point(134, 12);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(200, 20);
-            this.textBox1.TabIndex = 3;
+            this.txtIdDokter.Location = new System.Drawing.Point(134, 12);
+            this.txtIdDokter.Name = "txtIdDokter";
+            this.txtIdDokter.Size = new System.Drawing.Size(200, 20);
+            this.txtIdDokter.TabIndex = 3;
             // 
             // label3
             // 
@@ -95,21 +95,21 @@
             this.label3.TabIndex = 1;
             this.label3.Text = "Jam (24h)";
             // 
-            // textBox2
+            // txtJam1
             // 
-            this.textBox2.Location = new System.Drawing.Point(134, 64);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(200, 20);
-            this.textBox2.TabIndex = 3;
+            this.txtJam1.Location = new System.Drawing.Point(134, 64);
+            this.txtJam1.Name = "txtJam1";
+            this.txtJam1.Size = new System.Drawing.Size(200, 20);
+            this.txtJam1.TabIndex = 3;
             // 
-            // button1
+            // btnCek
             // 
-            this.button1.Location = new System.Drawing.Point(277, 89);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(57, 23);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "&Cek";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnCek.Location = new System.Drawing.Point(277, 89);
+            this.btnCek.Name = "btnCek";
+            this.btnCek.Size = new System.Drawing.Size(57, 23);
+            this.btnCek.TabIndex = 4;
+            this.btnCek.Text = "&Cek";
+            this.btnCek.UseVisualStyleBackColor = true;
             // 
             // label4
             // 
@@ -127,10 +127,10 @@
             this.groupBox1.Controls.Add(this.label9);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.textBox5);
-            this.groupBox1.Controls.Add(this.textBox4);
-            this.groupBox1.Controls.Add(this.textBox3);
+            this.groupBox1.Controls.Add(this.btnSave);
+            this.groupBox1.Controls.Add(this.txtDurasi);
+            this.groupBox1.Controls.Add(this.txtJam2);
+            this.groupBox1.Controls.Add(this.txtIdPasien);
             this.groupBox1.Controls.Add(this.dateTimePicker2);
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Location = new System.Drawing.Point(15, 197);
@@ -139,6 +139,26 @@
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Register Appointment";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(6, 107);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(101, 18);
+            this.label9.TabIndex = 0;
+            this.label9.Text = "Durasi (menit)";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(6, 81);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(75, 18);
+            this.label6.TabIndex = 0;
+            this.label6.Text = "Jam (24h)";
             // 
             // label5
             // 
@@ -151,59 +171,42 @@
             this.label5.Text = "ID Pasien";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
-            // textBox3
+            // btnSave
             // 
-            this.textBox3.Location = new System.Drawing.Point(119, 30);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(200, 20);
-            this.textBox3.TabIndex = 3;
+            this.btnSave.Location = new System.Drawing.Point(244, 94);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(75, 23);
+            this.btnSave.TabIndex = 4;
+            this.btnSave.Text = "&Save";
+            this.btnSave.UseVisualStyleBackColor = true;
             // 
-            // label6
+            // txtDurasi
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(6, 81);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(75, 18);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "Jam (24h)";
+            this.txtDurasi.Location = new System.Drawing.Point(119, 108);
+            this.txtDurasi.Name = "txtDurasi";
+            this.txtDurasi.Size = new System.Drawing.Size(75, 20);
+            this.txtDurasi.TabIndex = 3;
             // 
-            // textBox4
+            // txtJam2
             // 
-            this.textBox4.Location = new System.Drawing.Point(119, 82);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(75, 20);
-            this.textBox4.TabIndex = 3;
+            this.txtJam2.Location = new System.Drawing.Point(119, 82);
+            this.txtJam2.Name = "txtJam2";
+            this.txtJam2.Size = new System.Drawing.Size(75, 20);
+            this.txtJam2.TabIndex = 3;
             // 
-            // button2
+            // txtIdPasien
             // 
-            this.button2.Location = new System.Drawing.Point(244, 94);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "&Save";
-            this.button2.UseVisualStyleBackColor = true;
+            this.txtIdPasien.Location = new System.Drawing.Point(119, 30);
+            this.txtIdPasien.Name = "txtIdPasien";
+            this.txtIdPasien.Size = new System.Drawing.Size(200, 20);
+            this.txtIdPasien.TabIndex = 3;
             // 
-            // label7
+            // dateTimePicker2
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(12, 94);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(52, 18);
-            this.label7.TabIndex = 1;
-            this.label7.Text = "Option";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Jadwal Baru",
-            "Ganti Jadwal"});
-            this.comboBox1.Location = new System.Drawing.Point(134, 90);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(134, 21);
-            this.comboBox1.TabIndex = 7;
+            this.dateTimePicker2.Location = new System.Drawing.Point(119, 56);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(200, 20);
+            this.dateTimePicker2.TabIndex = 2;
             // 
             // label8
             // 
@@ -215,48 +218,45 @@
             this.label8.TabIndex = 1;
             this.label8.Text = "Tanggal ";
             // 
-            // dateTimePicker2
+            // label7
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(119, 56);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker2.TabIndex = 2;
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(12, 94);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(52, 18);
+            this.label7.TabIndex = 1;
+            this.label7.Text = "Option";
             // 
-            // textBox5
+            // cmbAvail
             // 
-            this.textBox5.Location = new System.Drawing.Point(119, 108);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(75, 20);
-            this.textBox5.TabIndex = 3;
+            this.cmbAvail.FormattingEnabled = true;
+            this.cmbAvail.Items.AddRange(new object[] {
+            "Jadwal Baru",
+            "Ganti Jadwal"});
+            this.cmbAvail.Location = new System.Drawing.Point(134, 90);
+            this.cmbAvail.Name = "cmbAvail";
+            this.cmbAvail.Size = new System.Drawing.Size(134, 21);
+            this.cmbAvail.TabIndex = 7;
             // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(6, 107);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(101, 18);
-            this.label9.TabIndex = 0;
-            this.label9.Text = "Durasi (menit)";
-            // 
-            // Form3
+            // frmAppointment
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(360, 347);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cmbAvail);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.btnCek);
+            this.Controls.Add(this.txtJam1);
+            this.Controls.Add(this.txtIdDokter);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Name = "Form3";
+            this.Name = "frmAppointment";
             this.Text = "Appointment Dokter";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -270,22 +270,22 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtIdDokter;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox txtJam1;
+        private System.Windows.Forms.Button btnCek;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Button btnSave;
+        private System.Windows.Forms.TextBox txtJam2;
+        private System.Windows.Forms.TextBox txtIdPasien;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtDurasi;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cmbAvail;
     }
 }

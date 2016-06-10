@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.rdoWanita = new System.Windows.Forms.RadioButton();
+            this.rdoPria = new System.Windows.Forms.RadioButton();
+            this.rtxtKeluhan = new System.Windows.Forms.RichTextBox();
+            this.txtAlamat = new System.Windows.Forms.TextBox();
+            this.txtNama = new System.Windows.Forms.TextBox();
+            this.txtIdPasien = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -52,12 +52,12 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.radioButton2);
-            this.groupBox1.Controls.Add(this.radioButton1);
-            this.groupBox1.Controls.Add(this.richTextBox1);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.rdoWanita);
+            this.groupBox1.Controls.Add(this.rdoPria);
+            this.groupBox1.Controls.Add(this.rtxtKeluhan);
+            this.groupBox1.Controls.Add(this.txtAlamat);
+            this.groupBox1.Controls.Add(this.txtNama);
+            this.groupBox1.Controls.Add(this.txtIdPasien);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.label7);
@@ -75,56 +75,56 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Biodata Pasien";
             // 
-            // radioButton2
+            // rdoWanita
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(216, 176);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(72, 22);
-            this.radioButton2.TabIndex = 6;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Wanita";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.rdoWanita.AutoSize = true;
+            this.rdoWanita.Location = new System.Drawing.Point(216, 176);
+            this.rdoWanita.Name = "rdoWanita";
+            this.rdoWanita.Size = new System.Drawing.Size(72, 22);
+            this.rdoWanita.TabIndex = 6;
+            this.rdoWanita.TabStop = true;
+            this.rdoWanita.Text = "Wanita";
+            this.rdoWanita.UseVisualStyleBackColor = true;
             // 
-            // radioButton1
+            // rdoPria
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(128, 176);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(52, 22);
-            this.radioButton1.TabIndex = 6;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Pria";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rdoPria.AutoSize = true;
+            this.rdoPria.Location = new System.Drawing.Point(128, 176);
+            this.rdoPria.Name = "rdoPria";
+            this.rdoPria.Size = new System.Drawing.Size(52, 22);
+            this.rdoPria.TabIndex = 6;
+            this.rdoPria.TabStop = true;
+            this.rdoPria.Text = "Pria";
+            this.rdoPria.UseVisualStyleBackColor = true;
             // 
-            // richTextBox1
+            // rtxtKeluhan
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(125, 211);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(261, 128);
-            this.richTextBox1.TabIndex = 5;
-            this.richTextBox1.Text = "";
+            this.rtxtKeluhan.Location = new System.Drawing.Point(125, 211);
+            this.rtxtKeluhan.Name = "rtxtKeluhan";
+            this.rtxtKeluhan.Size = new System.Drawing.Size(261, 128);
+            this.rtxtKeluhan.TabIndex = 5;
+            this.rtxtKeluhan.Text = "";
             // 
-            // textBox3
+            // txtAlamat
             // 
-            this.textBox3.Location = new System.Drawing.Point(125, 142);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(261, 24);
-            this.textBox3.TabIndex = 4;
+            this.txtAlamat.Location = new System.Drawing.Point(125, 142);
+            this.txtAlamat.Name = "txtAlamat";
+            this.txtAlamat.Size = new System.Drawing.Size(261, 24);
+            this.txtAlamat.TabIndex = 4;
             // 
-            // textBox2
+            // txtNama
             // 
-            this.textBox2.Location = new System.Drawing.Point(125, 68);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(261, 24);
-            this.textBox2.TabIndex = 4;
+            this.txtNama.Location = new System.Drawing.Point(125, 68);
+            this.txtNama.Name = "txtNama";
+            this.txtNama.Size = new System.Drawing.Size(261, 24);
+            this.txtNama.TabIndex = 4;
             // 
-            // textBox1
+            // txtIdPasien
             // 
-            this.textBox1.Location = new System.Drawing.Point(125, 30);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(261, 24);
-            this.textBox1.TabIndex = 4;
+            this.txtIdPasien.Location = new System.Drawing.Point(125, 30);
+            this.txtIdPasien.Name = "txtIdPasien";
+            this.txtIdPasien.Size = new System.Drawing.Size(261, 24);
+            this.txtIdPasien.TabIndex = 4;
             // 
             // label6
             // 
@@ -239,7 +239,7 @@
             this.button1.Text = "&Discard";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // Form2
+            // frmRegisterPasien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -248,7 +248,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox1);
-            this.Name = "Form2";
+            this.Name = "frmRegisterPasien";
             this.Text = "Register Pasien";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -259,12 +259,12 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.RadioButton rdoWanita;
+        private System.Windows.Forms.RadioButton rdoPria;
+        private System.Windows.Forms.RichTextBox rtxtKeluhan;
+        private System.Windows.Forms.TextBox txtAlamat;
+        private System.Windows.Forms.TextBox txtNama;
+        private System.Windows.Forms.TextBox txtIdPasien;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;

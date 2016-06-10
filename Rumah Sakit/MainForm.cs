@@ -16,5 +16,10 @@ namespace Rumah_Sakit
         {
             InitializeComponent();
         }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
