@@ -11,3 +11,20 @@ E:\mikroskil\Semester 4\Pemrograman\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah Sa
 D:\ProjectPBO\RumahSakitPBO\Rumah Sakit\bin\Debug\Rumah Sakit.exe.config
 C:\Users\Thomas Yap\Desktop\PBO\RumahSakitPBO\Rumah Sakit\bin\Debug\Rumah Sakit.exe.config
 D:\Semester 4\pbo\RumahSakitPBO\Rumah Sakit\bin\Debug\Rumah Sakit.exe.config
+D:\kuliah\sem 4\pbo\RumahSakitPBO\Rumah Sakit\bin\Debug\Rumah Sakit.exe.config
+D:\kuliah\sem 4\pbo\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah Sakit.csprojResolveAssemblyReference.cache
+D:\kuliah\sem 4\pbo\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.frmCariKamar.resources
+D:\kuliah\sem 4\pbo\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.frmDetailKamar.resources
+D:\kuliah\sem 4\pbo\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.MainForm.resources
+D:\kuliah\sem 4\pbo\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.frmRegisterPasien.resources
+D:\kuliah\sem 4\pbo\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.frmAppointment.resources
+D:\kuliah\sem 4\pbo\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.frmObat.resources
+D:\kuliah\sem 4\pbo\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.frmListTabel.resources
+D:\kuliah\sem 4\pbo\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.frmKamar.resources
+D:\kuliah\sem 4\pbo\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.Properties.Resources.resources
+D:\kuliah\sem 4\pbo\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah Sakit.csproj.GenerateResource.Cache
+D:\kuliah\sem 4\pbo\RumahSakitPBO\Rumah Sakit\bin\Debug\Rumah Sakit.exe
+D:\kuliah\sem 4\pbo\RumahSakitPBO\Rumah Sakit\bin\Debug\Rumah Sakit.pdb
+D:\kuliah\sem 4\pbo\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah Sakit.exe
+D:\kuliah\sem 4\pbo\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah Sakit.pdb
+D:\kuliah\sem 4\pbo\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.Pilihan.frmPasien.resources

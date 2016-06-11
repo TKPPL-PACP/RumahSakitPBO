@@ -44,10 +44,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmCariKamar.cs">
+    <Compile Include="Class\clsFungsi.cs" />
+    <Compile Include="Pilihan\frmCariKamar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmCariKamar.Designer.cs">
+    <Compile Include="Pilihan\frmCariKamar.Designer.cs">
       <DependentUpon>frmCariKamar.cs</DependentUpon>
     </Compile>
     <Compile Include="Class\clsJanjiDokter.cs" />
@@ -59,10 +60,10 @@
     <Compile Include="Class\clsRawatInap.cs" />
     <Compile Include="Class\clsResepObat.cs" />
     <Compile Include="Class\clsKamar.cs" />
-    <Compile Include="frmDetailKamar.cs">
+    <Compile Include="Pilihan\frmDetailKamar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmDetailKamar.Designer.cs">
+    <Compile Include="Pilihan\frmDetailKamar.Designer.cs">
       <DependentUpon>frmDetailKamar.cs</DependentUpon>
     </Compile>
     <Compile Include="MainForm.cs">
@@ -71,60 +72,75 @@
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmRegisterPasien.cs">
+    <Compile Include="Pilihan\frmPasien.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmRegisterPasien.Designer.cs">
+    <Compile Include="Pilihan\frmPasien.Designer.cs">
+      <DependentUpon>frmPasien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pilihan\frmRegisterPasien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pilihan\frmRegisterPasien.Designer.cs">
       <DependentUpon>frmRegisterPasien.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmAppointment.cs">
+    <Compile Include="Pilihan\frmAppointment.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmAppointment.Designer.cs">
+    <Compile Include="Pilihan\frmAppointment.Designer.cs">
       <DependentUpon>frmAppointment.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmObat.cs">
+    <Compile Include="Pilihan\frmObat.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmObat.Designer.cs">
+    <Compile Include="Pilihan\frmObat.Designer.cs">
       <DependentUpon>frmObat.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmListTabel.cs">
+    <Compile Include="Pilihan\frmListTabel.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmListTabel.Designer.cs">
+    <Compile Include="Pilihan\frmListTabel.Designer.cs">
       <DependentUpon>frmListTabel.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmKamar.cs">
+    <Compile Include="Pilihan\frmKamar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmKamar.Designer.cs">
+    <Compile Include="Pilihan\frmKamar.Designer.cs">
       <DependentUpon>frmKamar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pilihan\frmTransaksiObat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pilihan\frmTransaksiObat.Designer.cs">
+      <DependentUpon>frmTransaksiObat.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmCariKamar.resx">
+    <EmbeddedResource Include="Pilihan\frmCariKamar.resx">
       <DependentUpon>frmCariKamar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmDetailKamar.resx">
+    <EmbeddedResource Include="Pilihan\frmDetailKamar.resx">
       <DependentUpon>frmDetailKamar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmRegisterPasien.resx">
+    <EmbeddedResource Include="Pilihan\frmPasien.resx">
+      <DependentUpon>frmPasien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pilihan\frmRegisterPasien.resx">
       <DependentUpon>frmRegisterPasien.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmAppointment.resx">
+    <EmbeddedResource Include="Pilihan\frmAppointment.resx">
       <DependentUpon>frmAppointment.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmObat.resx">
+    <EmbeddedResource Include="Pilihan\frmObat.resx">
       <DependentUpon>frmObat.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmListTabel.resx">
+    <EmbeddedResource Include="Pilihan\frmListTabel.resx">
       <DependentUpon>frmListTabel.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmKamar.resx">
+    <EmbeddedResource Include="Pilihan\frmKamar.resx">
       <DependentUpon>frmKamar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">

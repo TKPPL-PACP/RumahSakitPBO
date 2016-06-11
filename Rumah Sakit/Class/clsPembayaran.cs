@@ -32,7 +32,7 @@ namespace Rumah_Sakit.Class
         {
             //masukkan this ke dalam database
         }
-        public void updatePembayaran
+        public void updatePembayaran()
         {
             //update this berdasarkan this.id
         }

@@ -28,106 +28,160 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnRegPasien = new System.Windows.Forms.Button();
-            this.btnObat = new System.Windows.Forms.Button();
-            this.btnTabel = new System.Windows.Forms.Button();
-            this.btnAppn = new System.Windows.Forms.Button();
-            this.btnCariKmr = new System.Windows.Forms.Button();
-            this.btnDetKmr = new System.Windows.Forms.Button();
-            this.btnTbhKmr = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.registerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.obatToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tambahObatToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.transaksiObatToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tampilkanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.janjiDokterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.kamarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tambahKamarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cariKamarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.detailKamarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pasienToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pegawaiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // btnRegPasien
+            // menuStrip1
             // 
-            this.btnRegPasien.Location = new System.Drawing.Point(59, 30);
-            this.btnRegPasien.Name = "btnRegPasien";
-            this.btnRegPasien.Size = new System.Drawing.Size(75, 48);
-            this.btnRegPasien.TabIndex = 0;
-            this.btnRegPasien.Text = "&Register";
-            this.btnRegPasien.UseVisualStyleBackColor = true;
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.registerToolStripMenuItem,
+            this.obatToolStripMenuItem,
+            this.tampilkanToolStripMenuItem,
+            this.janjiDokterToolStripMenuItem,
+            this.kamarToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(478, 24);
+            this.menuStrip1.TabIndex = 7;
+            this.menuStrip1.Text = "menuStrip1";
             // 
-            // btnObat
+            // registerToolStripMenuItem
             // 
-            this.btnObat.Location = new System.Drawing.Point(162, 30);
-            this.btnObat.Name = "btnObat";
-            this.btnObat.Size = new System.Drawing.Size(75, 48);
-            this.btnObat.TabIndex = 1;
-            this.btnObat.Text = "Tambah &Obat";
-            this.btnObat.UseVisualStyleBackColor = true;
+            this.registerToolStripMenuItem.Name = "registerToolStripMenuItem";
+            this.registerToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
+            this.registerToolStripMenuItem.Text = "Register";
+            this.registerToolStripMenuItem.Click += new System.EventHandler(this.registerToolStripMenuItem_Click);
             // 
-            // btnTabel
+            // obatToolStripMenuItem
             // 
-            this.btnTabel.Location = new System.Drawing.Point(267, 30);
-            this.btnTabel.Name = "btnTabel";
-            this.btnTabel.Size = new System.Drawing.Size(75, 48);
-            this.btnTabel.TabIndex = 2;
-            this.btnTabel.Text = "&List Tabel";
-            this.btnTabel.UseVisualStyleBackColor = true;
+            this.obatToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tambahObatToolStripMenuItem,
+            this.transaksiObatToolStripMenuItem});
+            this.obatToolStripMenuItem.Name = "obatToolStripMenuItem";
+            this.obatToolStripMenuItem.Size = new System.Drawing.Size(45, 20);
+            this.obatToolStripMenuItem.Text = "Obat";
             // 
-            // btnAppn
+            // tambahObatToolStripMenuItem
             // 
-            this.btnAppn.Location = new System.Drawing.Point(59, 98);
-            this.btnAppn.Name = "btnAppn";
-            this.btnAppn.Size = new System.Drawing.Size(75, 48);
-            this.btnAppn.TabIndex = 3;
-            this.btnAppn.Text = "&Appointment";
-            this.btnAppn.UseVisualStyleBackColor = true;
+            this.tambahObatToolStripMenuItem.Name = "tambahObatToolStripMenuItem";
+            this.tambahObatToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.tambahObatToolStripMenuItem.Text = "Tambah Obat";
+            this.tambahObatToolStripMenuItem.Click += new System.EventHandler(this.tambahObatToolStripMenuItem_Click);
             // 
-            // btnCariKmr
+            // transaksiObatToolStripMenuItem
             // 
-            this.btnCariKmr.Location = new System.Drawing.Point(162, 98);
-            this.btnCariKmr.Name = "btnCariKmr";
-            this.btnCariKmr.Size = new System.Drawing.Size(75, 48);
-            this.btnCariKmr.TabIndex = 4;
-            this.btnCariKmr.Text = "&Cari Kamar";
-            this.btnCariKmr.UseVisualStyleBackColor = true;
+            this.transaksiObatToolStripMenuItem.Name = "transaksiObatToolStripMenuItem";
+            this.transaksiObatToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.transaksiObatToolStripMenuItem.Text = "Transaksi Obat";
+            this.transaksiObatToolStripMenuItem.Click += new System.EventHandler(this.transaksiObatToolStripMenuItem_Click);
             // 
-            // btnDetKmr
+            // tampilkanToolStripMenuItem
             // 
-            this.btnDetKmr.Location = new System.Drawing.Point(267, 98);
-            this.btnDetKmr.Name = "btnDetKmr";
-            this.btnDetKmr.Size = new System.Drawing.Size(75, 48);
-            this.btnDetKmr.TabIndex = 5;
-            this.btnDetKmr.Text = "&Detail Kamar";
-            this.btnDetKmr.UseVisualStyleBackColor = true;
+            this.tampilkanToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.pasienToolStripMenuItem,
+            this.pegawaiToolStripMenuItem});
+            this.tampilkanToolStripMenuItem.Name = "tampilkanToolStripMenuItem";
+            this.tampilkanToolStripMenuItem.Size = new System.Drawing.Size(75, 20);
+            this.tampilkanToolStripMenuItem.Text = "Tampilkan";
+            this.tampilkanToolStripMenuItem.Click += new System.EventHandler(this.tampilkanToolStripMenuItem_Click);
             // 
-            // btnTbhKmr
+            // janjiDokterToolStripMenuItem
             // 
-            this.btnTbhKmr.Location = new System.Drawing.Point(59, 167);
-            this.btnTbhKmr.Name = "btnTbhKmr";
-            this.btnTbhKmr.Size = new System.Drawing.Size(75, 48);
-            this.btnTbhKmr.TabIndex = 6;
-            this.btnTbhKmr.Text = "&Tambah Kamar";
-            this.btnTbhKmr.UseVisualStyleBackColor = true;
+            this.janjiDokterToolStripMenuItem.Name = "janjiDokterToolStripMenuItem";
+            this.janjiDokterToolStripMenuItem.Size = new System.Drawing.Size(80, 20);
+            this.janjiDokterToolStripMenuItem.Text = "Janji Dokter";
+            this.janjiDokterToolStripMenuItem.Click += new System.EventHandler(this.janjiDokterToolStripMenuItem_Click);
+            // 
+            // kamarToolStripMenuItem
+            // 
+            this.kamarToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tambahKamarToolStripMenuItem,
+            this.cariKamarToolStripMenuItem,
+            this.detailKamarToolStripMenuItem});
+            this.kamarToolStripMenuItem.Name = "kamarToolStripMenuItem";
+            this.kamarToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
+            this.kamarToolStripMenuItem.Text = "Kamar";
+            // 
+            // tambahKamarToolStripMenuItem
+            // 
+            this.tambahKamarToolStripMenuItem.Name = "tambahKamarToolStripMenuItem";
+            this.tambahKamarToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
+            this.tambahKamarToolStripMenuItem.Text = "Tambah Kamar";
+            this.tambahKamarToolStripMenuItem.Click += new System.EventHandler(this.tambahKamarToolStripMenuItem_Click);
+            // 
+            // cariKamarToolStripMenuItem
+            // 
+            this.cariKamarToolStripMenuItem.Name = "cariKamarToolStripMenuItem";
+            this.cariKamarToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
+            this.cariKamarToolStripMenuItem.Text = "Cari Kamar";
+            this.cariKamarToolStripMenuItem.Click += new System.EventHandler(this.cariKamarToolStripMenuItem_Click);
+            // 
+            // detailKamarToolStripMenuItem
+            // 
+            this.detailKamarToolStripMenuItem.Name = "detailKamarToolStripMenuItem";
+            this.detailKamarToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
+            this.detailKamarToolStripMenuItem.Text = "Detail Kamar";
+            this.detailKamarToolStripMenuItem.Click += new System.EventHandler(this.detailKamarToolStripMenuItem_Click);
+            // 
+            // pasienToolStripMenuItem
+            // 
+            this.pasienToolStripMenuItem.Name = "pasienToolStripMenuItem";
+            this.pasienToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.pasienToolStripMenuItem.Text = "Pasien";
+            this.pasienToolStripMenuItem.Click += new System.EventHandler(this.pasienToolStripMenuItem_Click);
+            // 
+            // pegawaiToolStripMenuItem
+            // 
+            this.pegawaiToolStripMenuItem.Name = "pegawaiToolStripMenuItem";
+            this.pegawaiToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.pegawaiToolStripMenuItem.Text = "Pegawai";
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(478, 323);
-            this.Controls.Add(this.btnTbhKmr);
-            this.Controls.Add(this.btnDetKmr);
-            this.Controls.Add(this.btnCariKmr);
-            this.Controls.Add(this.btnAppn);
-            this.Controls.Add(this.btnTabel);
-            this.Controls.Add(this.btnObat);
-            this.Controls.Add(this.btnRegPasien);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "MainForm";
             this.Text = "Menu";
             this.Load += new System.EventHandler(this.MainForm_Load);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button btnRegPasien;
-        private System.Windows.Forms.Button btnObat;
-        private System.Windows.Forms.Button btnTabel;
-        private System.Windows.Forms.Button btnAppn;
-        private System.Windows.Forms.Button btnCariKmr;
-        private System.Windows.Forms.Button btnDetKmr;
-        private System.Windows.Forms.Button btnTbhKmr;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem registerToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem obatToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tambahObatToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem transaksiObatToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tampilkanToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem janjiDokterToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem kamarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tambahKamarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cariKamarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem detailKamarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pasienToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pegawaiToolStripMenuItem;
     }
 }
 
