@@ -167,6 +167,7 @@
             this.dgvPasien.Name = "dgvPasien";
             this.dgvPasien.Size = new System.Drawing.Size(729, 173);
             this.dgvPasien.TabIndex = 11;
+            this.dgvPasien.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvPasien_CellContentClick);
             // 
             // Column1
             // 

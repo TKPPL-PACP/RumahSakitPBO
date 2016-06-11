@@ -44,6 +44,7 @@ D:\Semester 4\pbo\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.frmListTabel.r
 D:\Semester 4\pbo\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.frmKamar.resources
 D:\Semester 4\pbo\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.Properties.Resources.resources
 D:\Semester 4\pbo\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah Sakit.csproj.GenerateResource.Cache
+<<<<<<< HEAD
 C:\Users\Thomas Yap\Desktop\PBO\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah Sakit.exe
 C:\Users\Thomas Yap\Desktop\PBO\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah Sakit.pdb
 C:\Users\Thomas Yap\Desktop\PBO\RumahSakitPBO\Rumah Sakit\bin\Debug\Rumah Sakit.exe
@@ -61,3 +62,21 @@ C:\Users\Thomas Yap\Desktop\PBO\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.
 C:\Users\Thomas Yap\Desktop\PBO\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.Pilihan.frmTransaksiObat.resources
 C:\Users\Thomas Yap\Desktop\PBO\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.Properties.Resources.resources
 C:\Users\Thomas Yap\Desktop\PBO\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah Sakit.csproj.GenerateResource.Cache
+=======
+D:\ProjectPBO\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah Sakit.exe
+D:\ProjectPBO\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah Sakit.pdb
+D:\ProjectPBO\RumahSakitPBO\Rumah Sakit\bin\Debug\Rumah Sakit.exe
+D:\ProjectPBO\RumahSakitPBO\Rumah Sakit\bin\Debug\Rumah Sakit.pdb
+D:\ProjectPBO\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah Sakit.csprojResolveAssemblyReference.cache
+D:\ProjectPBO\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.frmCariKamar.resources
+D:\ProjectPBO\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.frmDetailKamar.resources
+D:\ProjectPBO\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.MainForm.resources
+D:\ProjectPBO\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.Pilihan.frmPasien.resources
+D:\ProjectPBO\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.frmRegisterPasien.resources
+D:\ProjectPBO\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.frmAppointment.resources
+D:\ProjectPBO\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.frmObat.resources
+D:\ProjectPBO\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.frmListTabel.resources
+D:\ProjectPBO\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.frmKamar.resources
+D:\ProjectPBO\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.Properties.Resources.resources
+D:\ProjectPBO\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah Sakit.csproj.GenerateResource.Cache
+>>>>>>> 23820f07b9d9a6704daff10589aa7a6dfcbaf8e8

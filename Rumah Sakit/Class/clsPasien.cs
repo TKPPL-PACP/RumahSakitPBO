@@ -10,7 +10,7 @@ namespace Rumah_Sakit.Class
 {
     class clsPasien
     {
-        public List<clsPasien> pasien;
+        public List<clsPasien> pasien = new List<clsPasien>();
         public enum gender 
         {
             Wanita = 0,
