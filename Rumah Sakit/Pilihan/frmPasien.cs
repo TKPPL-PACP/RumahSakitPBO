@@ -44,10 +44,21 @@ namespace Rumah_Sakit.Pilihan
 
         private void frmPasien_Load(object sender, EventArgs e)
         {
+            // Ambil data-data pasien yang di database kemudian masukkan ke listPas
+            List<Class.clsPasien> listPas = new List<Class.clsPasien>();
+            foreach(Class.clsPasien i in listPas)
+            {
+                dgvPasien.Rows.Add(Convert.ToString(i.id), i.nama, i.alamat, Convert.ToString(i.tanggalLahir), Convert.ToString(i.jenisKelamin));
+            }
             dgvPasien.Rows.Add("3", "Budi");
             dgvPasien.Rows.Add("3", "Astuti");
             dgvPasien.Rows.Add("3", "Deho");
             dgvPasien.AllowUserToAddRows = false;
+        }
+
+        private void dgvPasien_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

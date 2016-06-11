@@ -39,5 +39,9 @@ namespace Rumah_Sakit.Class
         {
             //update this berdasarkan this.id
         }
+        public void hapusObat()
+        {
+            //hapus this berdasarkan this.id
+        }
     }
 }

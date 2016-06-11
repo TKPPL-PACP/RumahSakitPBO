@@ -110,6 +110,7 @@
             this.btnCek.TabIndex = 4;
             this.btnCek.Text = "&Cek";
             this.btnCek.UseVisualStyleBackColor = true;
+            this.btnCek.Click += new System.EventHandler(this.btnCek_Click);
             // 
             // label4
             // 

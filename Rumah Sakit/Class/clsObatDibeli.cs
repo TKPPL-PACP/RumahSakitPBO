@@ -18,5 +18,11 @@ namespace Rumah_Sakit.Class
             this.kuantitas = kuantitas;
             this.deskripsi = deskripsi;
         }
+
+        public void terjual(int idObat, double kuantitas)
+        {
+            //Stok pada database dikurangkan dengan this.kuantitas berdasarkan this.idObat
+
+        }
     }
 }
