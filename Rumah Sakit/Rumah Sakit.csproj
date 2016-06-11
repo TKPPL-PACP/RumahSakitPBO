@@ -143,6 +143,9 @@
     <EmbeddedResource Include="Pilihan\frmKamar.resx">
       <DependentUpon>frmKamar.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Pilihan\frmTransaksiObat.resx">
+      <DependentUpon>frmTransaksiObat.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
