@@ -14,6 +14,7 @@ namespace Rumah_Sakit.Pilihan
     public partial class frmPasien : Form
     {
         Class.clsFungsi func = new Class.clsFungsi();
+        Class.clsPasien pas = new Class.clsPasien();
         public frmPasien()
         {
             InitializeComponent();
@@ -35,12 +36,10 @@ namespace Rumah_Sakit.Pilihan
             string filter = func.search(txtCari.Text);
             for (int i = 0; i < dgvPasien.Rows.Count; i++)
             {
-                if (dgvPasien.Rows[i].Cells[1].Value.ToString().Contains(filter) )
+                if (dgvPasien.Rows[i].Cells[1].Value.ToString().Contains(filter.ToLower())|| dgvPasien.Rows[i].Cells[1].Value.ToString().Contains(filter.ToUpper()))
                     dgvPasien.Rows[i].Visible = true;
                 else dgvPasien.Rows[i].Visible = false;
             }
-            
-
         }
 
         private void frmPasien_Load(object sender, EventArgs e)

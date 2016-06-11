@@ -4,11 +4,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Rumah_Sakit.Class
 {
     class clsPasien
     {
+        public List<clsPasien> pasien;
         public enum gender 
         {
             Wanita = 0,
@@ -22,7 +24,7 @@ namespace Rumah_Sakit.Class
         public DateTime tanggalLahir { set; get; }
         public clsPasien()
         { }
-        public clsPasien(int id, string nama,int jenisKelamin, string penyakit, 
+        public clsPasien(int id, string nama,gender jenisKelamin, string penyakit, 
                          string alamat, DateTime tanggalLahir)
         {
             this.id = id;
@@ -32,9 +34,11 @@ namespace Rumah_Sakit.Class
             this.alamat = alamat;
             this.tanggalLahir = tanggalLahir;
         }
-        public void insertPasien()
+        public void insertPasien(clsPasien pas)
         {
             //masukkan this ke dalam database
+            //manual dengan class vvv
+            pasien.Add(pas);
         }
         public void updatePasien()
         {
@@ -47,6 +51,10 @@ namespace Rumah_Sakit.Class
             // cari pada database dengan id sekian lalu masukan ke pasienDicari
 
             return pasienDicari;
+        }
+        public void tampilPasien(DataGridView dgv)
+        {
+            
         }
     }
 }
