@@ -11,11 +11,11 @@ using System.IO;
 
 namespace Rumah_Sakit.Pilihan
 {
-    public partial class frmPasien : Form
+    public partial class frmCariPasien : Form
     {
         Class.modulFungsi func = new Class.modulFungsi();
         Class.clsPasien pas = new Class.clsPasien();
-        public frmPasien()
+        public frmCariPasien()
         {
             InitializeComponent();
         }
@@ -59,6 +59,11 @@ namespace Rumah_Sakit.Pilihan
         private void dgvPasien_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void btnTampil_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Cari pada database");
         }
     }
 }

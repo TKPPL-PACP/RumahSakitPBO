@@ -1,6 +1,6 @@
 ﻿namespace Rumah_Sakit.Pilihan
 {
-    partial class frmPasien
+    partial class frmCariPasien
     {
         /// <summary>
         /// Required designer variable.
@@ -227,8 +227,9 @@
             this.btnTampil.TabIndex = 12;
             this.btnTampil.Text = "Tampil";
             this.btnTampil.UseVisualStyleBackColor = true;
+            this.btnTampil.Click += new System.EventHandler(this.btnTampil_Click);
             // 
-            // frmPasien
+            // frmCariPasien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -245,7 +246,7 @@
             this.Controls.Add(this.dtpTanggalMasuk);
             this.Controls.Add(this.cboStatusPembayaran);
             this.Controls.Add(this.chkStatusPembayaran);
-            this.Name = "frmPasien";
+            this.Name = "frmCariPasien";
             this.Text = "frmPasien";
             this.Load += new System.EventHandler(this.frmPasien_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvPasien)).EndInit();

@@ -27,8 +27,7 @@ namespace Rumah_Sakit
 
         private void registerToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form showForm = new frmRegisterPasien();
-            showForm.Show();
+            
             
         }
 
@@ -74,7 +73,25 @@ namespace Rumah_Sakit
 
         private void pasienToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form showForm = new Pilihan.frmPasien();
+            Form showForm = new Pilihan.frmCariPasien();
+            showForm.Show();
+        }
+
+        private void pegawaiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form showForm = new Pilihan.frmCariPegawai();
+            showForm.Show();
+        }
+
+        private void pasienToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Form showForm = new frmRegisterPasien();
+            showForm.Show();
+        }
+
+        private void pegawaiToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Form showForm = new Pilihan.frmRegisterPegawai();
             showForm.Show();
         }
     }

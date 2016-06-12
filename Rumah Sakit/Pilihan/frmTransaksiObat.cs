@@ -19,10 +19,11 @@ namespace Rumah_Sakit.Pilihan
 
         private void frmTransaksiObat_Load(object sender, EventArgs e)
         {
-            dgvObat.Rows.Add("Panadol", "2", "10.000", "20.000");
-            dgvObat.Rows.Add("Vitacimin", "5", "1.000", "5.000");
-            dgvObat.Rows.Add("Antibiotik", "6", "5.000", "30.000");
+            dgvObat.Rows.Add("Panadol", "2", "10000", "20000");
+            dgvObat.Rows.Add("Vitacimin", "5", "1000", "5000");
+            dgvObat.Rows.Add("Antibiotik", "6", "5000", "30000");
             dgvObat.AllowUserToAddRows = false;
+            MessageBox.Show((dgvObat.Rows[0].Cells[2].Value+ dgvObat.Rows[0].Cells[2].Value).toString());
         }
     }
 }

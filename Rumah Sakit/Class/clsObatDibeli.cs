@@ -19,11 +19,13 @@ namespace Rumah_Sakit.Class
             this.deskripsi = deskripsi;
         }
 
-<<<<<<< Updated upstream
+
         public void terjual(int idObat, double kuantitas)
-=======
+        {
+        }
+
         public void terjual()
->>>>>>> Stashed changes
+
         {
             //Stok pada database dikurangkan dengan this.kuantitas berdasarkan this.idObat
 

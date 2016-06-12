@@ -21,23 +21,27 @@ namespace Rumah_Sakit.Class
             Janitor = 3
         }
         public int id { set; get; }
+        public int nip { set; get; }
         public string nama { set; get; }
         public gender jenisKelamin { set; get; }
         public string alamat { set; get; }
         public double gaji { set; get; }
         public DateTime tanggalMasuk { set; get; }
+        public DateTime tanggalLahir { set; get; }
         public job profesi { set; get; }
         public clsPegawai()
         { }
 
-        public clsPegawai(int id, string nama, int jenisKelamin, string alamat, 
-                          double gaji, DateTime tanggalMasuk, int profesi)
+        public clsPegawai(int id,int nip, string nama, int jenisKelamin, string alamat, 
+                          double gaji, DateTime tanggalMasuk,DateTime tanggalLahir, int profesi)
         {
             this.id = id;
+            this.nip = nip;
             this.nama = nama;
             this.jenisKelamin = (gender) jenisKelamin;
             this.alamat = alamat;
             this.gaji = gaji;
+            this.tanggalLahir = tanggalLahir;
             this.tanggalMasuk = tanggalMasuk;
             this.profesi = (job)profesi;
         }
