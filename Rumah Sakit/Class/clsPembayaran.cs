@@ -11,16 +11,19 @@ namespace Rumah_Sakit.Class
         public int id { private set; get; }
         public bool statusPembayaran { set; get; }
         public double jumlahPembayaran { set; get; }
-        public DateTime tanggalPembayaran { set; get; }   
+        public DateTime tanggalPembayaran { set; get; }
+        // Pembayaran untuk idPasien berikut
+        public int idPasien { private set; get; }
         public clsPembayaran()
         { }
-        public clsPembayaran(int id, bool statusPembayaran, 
+        public clsPembayaran(int idPasien, bool statusPembayaran, 
                              double jumlahPembayaran, DateTime tanggalPembayaran)
         {
-            this.id = id;
+            // this.id generate dari database
             this.statusPembayaran = statusPembayaran;
             this.jumlahPembayaran = jumlahPembayaran;
             this.tanggalPembayaran = tanggalPembayaran;
+            this.idPasien = idPasien;
         }
         public static clsPembayaran cariPembayaranById(int id)
         {

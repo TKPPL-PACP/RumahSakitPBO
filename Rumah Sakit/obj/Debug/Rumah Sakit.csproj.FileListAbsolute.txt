@@ -81,7 +81,6 @@ D:\ProjectPBO\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.Properties.Resourc
 D:\ProjectPBO\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah Sakit.csproj.GenerateResource.Cache
 >>>>>>> 23820f07b9d9a6704daff10589aa7a6dfcbaf8e8
 <<<<<<< Updated upstream
-=======
 E:\mikroskil\Semester 4\Pemrograman\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.frmCariKamar.resources
 E:\mikroskil\Semester 4\Pemrograman\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.frmDetailKamar.resources
 E:\mikroskil\Semester 4\Pemrograman\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.MainForm.resources

@@ -78,6 +78,12 @@
     <Compile Include="Pilihan\frmPasien.Designer.cs">
       <DependentUpon>frmPasien.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pilihan\frmPembayaran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pilihan\frmPembayaran.Designer.cs">
+      <DependentUpon>frmPembayaran.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pilihan\frmRegisterPasien.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -127,6 +133,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pilihan\frmPasien.resx">
       <DependentUpon>frmPasien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pilihan\frmPembayaran.resx">
+      <DependentUpon>frmPembayaran.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pilihan\frmRegisterPasien.resx">
       <DependentUpon>frmRegisterPasien.cs</DependentUpon>
