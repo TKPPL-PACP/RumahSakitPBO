@@ -84,6 +84,12 @@
     <Compile Include="Pilihan\frmCariPegawai.Designer.cs">
       <DependentUpon>frmCariPegawai.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pilihan\frmDetailPembayaran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pilihan\frmDetailPembayaran.Designer.cs">
+      <DependentUpon>frmDetailPembayaran.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pilihan\frmPembayaran.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -148,6 +154,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pilihan\frmCariPegawai.resx">
       <DependentUpon>frmCariPegawai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pilihan\frmDetailPembayaran.resx">
+      <DependentUpon>frmDetailPembayaran.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pilihan\frmPembayaran.resx">
       <DependentUpon>frmPembayaran.cs</DependentUpon>

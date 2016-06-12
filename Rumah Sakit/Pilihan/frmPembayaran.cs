@@ -30,5 +30,11 @@ namespace Rumah_Sakit.Pilihan
         {
             txtStatus.Text = "Belum Bayar";
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form showForm = new Pilihan.frmDetailPembayaran();
+            showForm.Show();
+        }
     }
 }

@@ -30,6 +30,8 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.registerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pasienToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.pegawaiToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.obatToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tambahObatToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.transaksiObatToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -41,8 +43,7 @@
             this.tambahKamarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cariKamarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.detailKamarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pasienToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.pegawaiToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.pembayaranToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -53,7 +54,8 @@
             this.obatToolStripMenuItem,
             this.tampilkanToolStripMenuItem,
             this.janjiDokterToolStripMenuItem,
-            this.kamarToolStripMenuItem});
+            this.kamarToolStripMenuItem,
+            this.pembayaranToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(478, 24);
@@ -69,6 +71,20 @@
             this.registerToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
             this.registerToolStripMenuItem.Text = "Register";
             this.registerToolStripMenuItem.Click += new System.EventHandler(this.registerToolStripMenuItem_Click);
+            // 
+            // pasienToolStripMenuItem1
+            // 
+            this.pasienToolStripMenuItem1.Name = "pasienToolStripMenuItem1";
+            this.pasienToolStripMenuItem1.Size = new System.Drawing.Size(118, 22);
+            this.pasienToolStripMenuItem1.Text = "Pasien";
+            this.pasienToolStripMenuItem1.Click += new System.EventHandler(this.pasienToolStripMenuItem1_Click);
+            // 
+            // pegawaiToolStripMenuItem1
+            // 
+            this.pegawaiToolStripMenuItem1.Name = "pegawaiToolStripMenuItem1";
+            this.pegawaiToolStripMenuItem1.Size = new System.Drawing.Size(118, 22);
+            this.pegawaiToolStripMenuItem1.Text = "Pegawai";
+            this.pegawaiToolStripMenuItem1.Click += new System.EventHandler(this.pegawaiToolStripMenuItem1_Click);
             // 
             // obatToolStripMenuItem
             // 
@@ -155,19 +171,12 @@
             this.detailKamarToolStripMenuItem.Text = "Detail Kamar";
             this.detailKamarToolStripMenuItem.Click += new System.EventHandler(this.detailKamarToolStripMenuItem_Click);
             // 
-            // pasienToolStripMenuItem1
+            // pembayaranToolStripMenuItem
             // 
-            this.pasienToolStripMenuItem1.Name = "pasienToolStripMenuItem1";
-            this.pasienToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
-            this.pasienToolStripMenuItem1.Text = "Pasien";
-            this.pasienToolStripMenuItem1.Click += new System.EventHandler(this.pasienToolStripMenuItem1_Click);
-            // 
-            // pegawaiToolStripMenuItem1
-            // 
-            this.pegawaiToolStripMenuItem1.Name = "pegawaiToolStripMenuItem1";
-            this.pegawaiToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
-            this.pegawaiToolStripMenuItem1.Text = "Pegawai";
-            this.pegawaiToolStripMenuItem1.Click += new System.EventHandler(this.pegawaiToolStripMenuItem1_Click);
+            this.pembayaranToolStripMenuItem.Name = "pembayaranToolStripMenuItem";
+            this.pembayaranToolStripMenuItem.Size = new System.Drawing.Size(85, 20);
+            this.pembayaranToolStripMenuItem.Text = "Pembayaran";
+            this.pembayaranToolStripMenuItem.Click += new System.EventHandler(this.pembayaranToolStripMenuItem_Click);
             // 
             // MainForm
             // 
@@ -204,6 +213,7 @@
         private System.Windows.Forms.ToolStripMenuItem pegawaiToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pasienToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem pegawaiToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem pembayaranToolStripMenuItem;
     }
 }
 

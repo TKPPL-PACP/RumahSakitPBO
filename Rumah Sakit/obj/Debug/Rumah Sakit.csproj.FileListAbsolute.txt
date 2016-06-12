@@ -96,3 +96,8 @@ D:\Semester 4\pbo\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.Pilihan.frmCar
 D:\Semester 4\pbo\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.Pilihan.frmCariPegawai.resources
 D:\Semester 4\pbo\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.Pilihan.frmTransaksiObat.resources
 D:\Semester 4\pbo\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.Pilihan.frmRegisterPegawai.resources
+C:\Users\Thomas Yap\Desktop\PBO\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.Pilihan.frmCariPasien.resources
+C:\Users\Thomas Yap\Desktop\PBO\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.Pilihan.frmCariPegawai.resources
+C:\Users\Thomas Yap\Desktop\PBO\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.Pilihan.frmDetailPembayaran.resources
+C:\Users\Thomas Yap\Desktop\PBO\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.Pilihan.frmPembayaran.resources
+C:\Users\Thomas Yap\Desktop\PBO\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.Pilihan.frmRegisterPegawai.resources

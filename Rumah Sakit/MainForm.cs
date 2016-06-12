@@ -94,5 +94,11 @@ namespace Rumah_Sakit
             Form showForm = new Pilihan.frmRegisterPegawai();
             showForm.Show();
         }
+
+        private void pembayaranToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form showForm = new Pilihan.frmPembayaran();
+            showForm.Show();        
+        }
     }
 }

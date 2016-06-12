@@ -23,7 +23,7 @@ namespace Rumah_Sakit.Pilihan
             dgvObat.Rows.Add("Vitacimin", "5", "1000", "5000");
             dgvObat.Rows.Add("Antibiotik", "6", "5000", "30000");
             dgvObat.AllowUserToAddRows = false;
-            MessageBox.Show((dgvObat.Rows[0].Cells[2].Value+ dgvObat.Rows[0].Cells[2].Value).toString());
+            //MessageBox.Show((dgvObat.Rows[0].Cells[2].Value+ dgvObat.Rows[0].Cells[2].Value).toString());
         }
     }
 }
