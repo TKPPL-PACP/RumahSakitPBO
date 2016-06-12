@@ -34,6 +34,7 @@ namespace Rumah_Sakit.Class
         public void insertPembayaran()
         {
             //masukkan this ke dalam database
+            //ambil id masukkan ke this.id
         }
         public void updatePembayaran()
         {

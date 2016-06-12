@@ -101,3 +101,9 @@ C:\Users\Thomas Yap\Desktop\PBO\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.
 C:\Users\Thomas Yap\Desktop\PBO\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.Pilihan.frmDetailPembayaran.resources
 C:\Users\Thomas Yap\Desktop\PBO\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.Pilihan.frmPembayaran.resources
 C:\Users\Thomas Yap\Desktop\PBO\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.Pilihan.frmRegisterPegawai.resources
+E:\mikroskil\Semester 4\Pemrograman\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.Pilihan.frmCariPasien.resources
+E:\mikroskil\Semester 4\Pemrograman\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.Pilihan.frmCariPegawai.resources
+E:\mikroskil\Semester 4\Pemrograman\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.Pilihan.frmDetailPembayaran.resources
+E:\mikroskil\Semester 4\Pemrograman\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.Pilihan.frmPembayaran.resources
+E:\mikroskil\Semester 4\Pemrograman\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.Pilihan.frmRegisterPegawai.resources
+E:\mikroskil\Semester 4\Pemrograman\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.Pilihan.frmRawatInap.resources

@@ -30,10 +30,18 @@ namespace Rumah_Sakit.Class
             this.stock = stock;
             this.satuan = satuan;
         }
+        public static clsObat cariObat(int idObat)
+        {
+            clsObat obatDicari = new clsObat();
+            //proses cari obat dari database
+            //hasilnya diassign ke obatDicari
 
+            return obatDicari;
+        }
         public void insertObat()
         {
             //masukkan this ke dalam database
+            //ambil id masukkan ke this.id
         }
         public void updateObat()
         {

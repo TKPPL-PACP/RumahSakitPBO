@@ -76,15 +76,26 @@ namespace Rumah_Sakit.Class
 
         public void UpdateResepObat()
         {
+            double sum = 0;
+            foreach(clsObatDibeli obatDibeli in this.lstObatDibeli)
+            {
+                clsObat obat = clsObat.cariObat(obatDibeli.idObat);
+                sum += obatDibeli.kuantitas * obat.harga;
+            }
             //update data ke tabel resep obat berdasarkan this.id
+            clsPembayaran pembayaran = clsPembayaran.cariPembayaranById(this.idPembayaran);
+            pembayaran.jumlahPembayaran = sum;
+            pembayaran.updatePembayaran();
         }
         public void tebusResepObat()
         {
             foreach(clsObatDibeli obatDibeli in this.lstObatDibeli)
             {
-                //lakukan proses pengurangan obat pada database dari setiap list obat yang ada
+                obatDibeli.terjual();
             }
-            //update status pembayaran by idPembayaran, dan update uang yang terbayarkan.
+            clsPembayaran pembayaran = clsPembayaran.cariPembayaranById(this.idPembayaran);
+            pembayaran.statusPembayaran = true;
+            pembayaran.updatePembayaran();
         }
     }
 }

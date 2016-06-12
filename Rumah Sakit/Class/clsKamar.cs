@@ -18,12 +18,13 @@ namespace Rumah_Sakit.Class
         public int id { set; get; }
         public int nomorKamar { set; get; }
         public int lantai { set; get; }
-        public jenisKamar jenisKamar { set; get; } 
+        public jenisKamar jenisKamar { set; get; }
+        public double biaya { set; get; }
         public int kapasitas { set; get; }
         public int terisi { set; get; } 
         public clsKamar()
         { }
-        public clsKamar(int nomor, int jenis, int lantai, int kapasitas, int terisi)
+        public clsKamar(int nomor, int jenis, int biaya, int lantai, int kapasitas, int terisi)
         {
             this.nomorKamar = nomor;
             this.jenisKamar = (jenisKamar) jenis;

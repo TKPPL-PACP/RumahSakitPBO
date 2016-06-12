@@ -41,9 +41,21 @@ namespace Rumah_Sakit.Class
         {
             //update this pada database berdasarkan this.id
         }
+        public void CheckIn()
+        {
+            this.tanggalMasuk = DateTime.Now;
+            this.UpdateRawatInap();
+        }
         public void CheckOut()
         {
+            clsPembayaran pembayaran = new clsPembayaran();
+
             this.tanggalKeluar = DateTime.Now;
+            pembayaran.jumlahPembayaran = this.tanggalKeluar.Subtract(this.tanggalMasuk).TotalDays - 1;
+            pembayaran.statusPembayaran = true;
+            pembayaran.tanggalPembayaran = DateTime.Now;
+            pembayaran.insertPembayaran();
+            this.idPembayaran = pembayaran.id;
             this.UpdateRawatInap();
         }
         public void PindahKamar(int idKamarTujuan)

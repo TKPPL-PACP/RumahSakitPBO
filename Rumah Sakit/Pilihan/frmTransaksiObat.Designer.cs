@@ -33,20 +33,25 @@
             this.txtIdPasien = new System.Windows.Forms.TextBox();
             this.txtNamaPasien = new System.Windows.Forms.TextBox();
             this.dgvObat = new System.Windows.Forms.DataGridView();
-            this.label3 = new System.Windows.Forms.Label();
-            this.txtJumlahHarga = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.nama_obat = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.jumlah_obat = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.hargaSatuan_obat = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.hargatotalsatuan_obat = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtJumlahHarga = new System.Windows.Forms.TextBox();
+            this.btnHitung = new System.Windows.Forms.Button();
+            this.btnTebus = new System.Windows.Forms.Button();
+            this.btnCariResepObat = new System.Windows.Forms.Button();
+            this.lblIDResepObat = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.btnSimpan = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvObat)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(135, 20);
+            this.label1.Location = new System.Drawing.Point(45, 49);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(59, 13);
             this.label1.TabIndex = 0;
@@ -55,7 +60,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(118, 46);
+            this.label2.Location = new System.Drawing.Point(28, 75);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(76, 13);
             this.label2.TabIndex = 0;
@@ -63,14 +68,14 @@
             // 
             // txtIdPasien
             // 
-            this.txtIdPasien.Location = new System.Drawing.Point(201, 17);
+            this.txtIdPasien.Location = new System.Drawing.Point(111, 46);
             this.txtIdPasien.Name = "txtIdPasien";
             this.txtIdPasien.Size = new System.Drawing.Size(151, 20);
             this.txtIdPasien.TabIndex = 1;
             // 
             // txtNamaPasien
             // 
-            this.txtNamaPasien.Location = new System.Drawing.Point(201, 43);
+            this.txtNamaPasien.Location = new System.Drawing.Point(111, 72);
             this.txtNamaPasien.Name = "txtNamaPasien";
             this.txtNamaPasien.Size = new System.Drawing.Size(151, 20);
             this.txtNamaPasien.TabIndex = 1;
@@ -83,37 +88,10 @@
             this.jumlah_obat,
             this.hargaSatuan_obat,
             this.hargatotalsatuan_obat});
-            this.dgvObat.Location = new System.Drawing.Point(23, 77);
+            this.dgvObat.Location = new System.Drawing.Point(23, 120);
             this.dgvObat.Name = "dgvObat";
-            this.dgvObat.Size = new System.Drawing.Size(445, 312);
+            this.dgvObat.Size = new System.Drawing.Size(445, 269);
             this.dgvObat.TabIndex = 2;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(263, 407);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(78, 13);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Jumlah Harga :";
-            // 
-            // txtJumlahHarga
-            // 
-            this.txtJumlahHarga.Enabled = false;
-            this.txtJumlahHarga.Location = new System.Drawing.Point(347, 404);
-            this.txtJumlahHarga.Name = "txtJumlahHarga";
-            this.txtJumlahHarga.Size = new System.Drawing.Size(121, 20);
-            this.txtJumlahHarga.TabIndex = 4;
-            this.txtJumlahHarga.Text = "Rp. 55.000";
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(90, 403);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 22);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "Hitung";
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // nama_obat
             // 
@@ -135,12 +113,87 @@
             this.hargatotalsatuan_obat.HeaderText = "Total Harga";
             this.hargatotalsatuan_obat.Name = "hargatotalsatuan_obat";
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(263, 407);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(78, 13);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Jumlah Harga :";
+            // 
+            // txtJumlahHarga
+            // 
+            this.txtJumlahHarga.Enabled = false;
+            this.txtJumlahHarga.Location = new System.Drawing.Point(347, 404);
+            this.txtJumlahHarga.Name = "txtJumlahHarga";
+            this.txtJumlahHarga.Size = new System.Drawing.Size(121, 20);
+            this.txtJumlahHarga.TabIndex = 4;
+            this.txtJumlahHarga.Text = "Rp. 55.000";
+            // 
+            // btnHitung
+            // 
+            this.btnHitung.Location = new System.Drawing.Point(23, 403);
+            this.btnHitung.Name = "btnHitung";
+            this.btnHitung.Size = new System.Drawing.Size(75, 22);
+            this.btnHitung.TabIndex = 5;
+            this.btnHitung.Text = "Hitung";
+            this.btnHitung.UseVisualStyleBackColor = true;
+            // 
+            // btnTebus
+            // 
+            this.btnTebus.Location = new System.Drawing.Point(187, 402);
+            this.btnTebus.Name = "btnTebus";
+            this.btnTebus.Size = new System.Drawing.Size(75, 22);
+            this.btnTebus.TabIndex = 6;
+            this.btnTebus.Text = "Tebus";
+            this.btnTebus.UseVisualStyleBackColor = true;
+            // 
+            // btnCariResepObat
+            // 
+            this.btnCariResepObat.Location = new System.Drawing.Point(290, 18);
+            this.btnCariResepObat.Name = "btnCariResepObat";
+            this.btnCariResepObat.Size = new System.Drawing.Size(98, 23);
+            this.btnCariResepObat.TabIndex = 7;
+            this.btnCariResepObat.Text = "Cari Resep Obat";
+            this.btnCariResepObat.UseVisualStyleBackColor = true;
+            // 
+            // lblIDResepObat
+            // 
+            this.lblIDResepObat.AutoSize = true;
+            this.lblIDResepObat.Location = new System.Drawing.Point(20, 20);
+            this.lblIDResepObat.Name = "lblIDResepObat";
+            this.lblIDResepObat.Size = new System.Drawing.Size(84, 13);
+            this.lblIDResepObat.TabIndex = 8;
+            this.lblIDResepObat.Text = "ID Resep Obat :";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(111, 20);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(151, 20);
+            this.textBox1.TabIndex = 9;
+            // 
+            // btnSimpan
+            // 
+            this.btnSimpan.Location = new System.Drawing.Point(104, 402);
+            this.btnSimpan.Name = "btnSimpan";
+            this.btnSimpan.Size = new System.Drawing.Size(75, 23);
+            this.btnSimpan.TabIndex = 10;
+            this.btnSimpan.Text = "Simpan";
+            this.btnSimpan.UseVisualStyleBackColor = true;
+            // 
             // frmTransaksiObat
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(489, 437);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnSimpan);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.lblIDResepObat);
+            this.Controls.Add(this.btnCariResepObat);
+            this.Controls.Add(this.btnTebus);
+            this.Controls.Add(this.btnHitung);
             this.Controls.Add(this.txtJumlahHarga);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.dgvObat);
@@ -166,10 +219,15 @@
         private System.Windows.Forms.DataGridView dgvObat;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtJumlahHarga;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnHitung;
         private System.Windows.Forms.DataGridViewTextBoxColumn nama_obat;
         private System.Windows.Forms.DataGridViewTextBoxColumn jumlah_obat;
         private System.Windows.Forms.DataGridViewTextBoxColumn hargaSatuan_obat;
         private System.Windows.Forms.DataGridViewTextBoxColumn hargatotalsatuan_obat;
+        private System.Windows.Forms.Button btnTebus;
+        private System.Windows.Forms.Button btnCariResepObat;
+        private System.Windows.Forms.Label lblIDResepObat;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button btnSimpan;
     }
 }

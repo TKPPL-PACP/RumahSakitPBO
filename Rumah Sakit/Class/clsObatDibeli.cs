@@ -19,11 +19,6 @@ namespace Rumah_Sakit.Class
             this.deskripsi = deskripsi;
         }
 
-
-        public void terjual(int idObat, double kuantitas)
-        {
-        }
-
         public void terjual()
 
         {
