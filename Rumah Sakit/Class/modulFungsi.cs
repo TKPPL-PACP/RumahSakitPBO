@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Rumah_Sakit.Class
 {
-    class clsFungsi
+    class modulFungsi
     {
         public string search(string kata)
         {

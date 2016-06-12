@@ -13,7 +13,7 @@ namespace Rumah_Sakit.Pilihan
 {
     public partial class frmPasien : Form
     {
-        Class.clsFungsi func = new Class.clsFungsi();
+        Class.modulFungsi func = new Class.modulFungsi();
         Class.clsPasien pas = new Class.clsPasien();
         public frmPasien()
         {
