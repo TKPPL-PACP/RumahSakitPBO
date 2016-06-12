@@ -21,7 +21,6 @@ namespace Rumah_Sakit.Class
             Janitor = 3
         }
         public int id { set; get; }
-        private string nip;
         public string nama { set; get; }
         public gender jenisKelamin { set; get; }
         public string alamat { set; get; }

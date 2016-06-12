@@ -58,6 +58,8 @@ namespace Rumah_Sakit.Class
                 kamar.updateKamar();
                 kamarSekarang.terisi--;
                 kamarSekarang.updateKamar();
+                this.idKamar = idKamarTujuan;
+                this.UpdateRawatInap();
             }
         }
     }
