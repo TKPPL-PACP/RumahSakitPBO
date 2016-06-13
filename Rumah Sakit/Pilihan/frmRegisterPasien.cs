@@ -36,14 +36,18 @@ namespace Rumah_Sakit
             else if (rdoWanita.Checked) pas.jenisKelamin = 0;
             if ((txtIdPasien.Text=="") || (txtNama.Text=="") || (pas.penyakit == "") || (pas.alamat == "") || (!rdoPria.Checked && !rdoWanita.Checked ))
             {
-                MessageBox.Show("Mohon lengkapi data!");
+               MessageBox.Show("Warning","Mohon lengkapi data!",MessageBoxButtons.OK,MessageBoxIcon.Warning);
             }
             else
             {
                 Class.clsPasien m = new Class.clsPasien(pas.id,pas.nama, pas.jenisKelamin,pas.penyakit,pas.alamat,pas.tanggalLahir );
                 pas.insertPasien(m);
+                MessageBox.Show("Data berhasil di simpan");
         
             }
+            Form frm = new frmRegisterPasien();
+            frm.Show();
+            this.Close();
         }
 
         private void dtpTanggalLahir_ValueChanged(object sender, EventArgs e)

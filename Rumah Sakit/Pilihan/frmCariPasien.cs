@@ -64,6 +64,7 @@ namespace Rumah_Sakit.Pilihan
         private void btnTampil_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Cari pada database");
+            pas.tampilPasien(dgvPasien);
         }
     }
 }

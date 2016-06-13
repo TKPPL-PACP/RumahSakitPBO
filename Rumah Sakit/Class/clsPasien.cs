@@ -54,7 +54,10 @@ namespace Rumah_Sakit.Class
         }
         public void tampilPasien(DataGridView dgv)
         {
-            
+            for (int i = 0; i < pasien.Count; i++)
+            {
+                dgv.Rows.Add(pasien[i].id);
+            }
         }
     }
 }
