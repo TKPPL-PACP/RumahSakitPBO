@@ -21,27 +21,28 @@ namespace Rumah_Sakit
         private void button1_Click(object sender, EventArgs e)
         {
             Form frm = new frmRegisterPasien();
-            frm.Show();
             this.Close();
+            frm.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            pas.id = int.Parse(txtIdPasien.Text);
             pas.nama = txtNama.Text;
             pas.tanggalLahir = dtpTanggalLahir.Value.Date;
             pas.penyakit = rtxtKeluhan.Text;
             pas.alamat = txtAlamat.Text;
             if (rdoPria.Checked) pas.jenisKelamin = (Class.clsPasien.gender)1;
             else if (rdoWanita.Checked) pas.jenisKelamin = 0;
-            if ((txtIdPasien.Text=="") || (txtNama.Text=="") || (pas.penyakit == "") || (pas.alamat == "") || (!rdoPria.Checked && !rdoWanita.Checked ))
+            if ((txtNama.Text=="") || (pas.penyakit == "") || (pas.alamat == "") || (!rdoPria.Checked && !rdoWanita.Checked ))
             {
                 MessageBox.Show("Mohon lengkapi data!");
             }
             else
             {
+                MessageBox.Show("Pendaftaran Pasien telah berhasil");
                 Class.clsPasien m = new Class.clsPasien(pas.id,pas.nama, pas.jenisKelamin,pas.penyakit,pas.alamat,pas.tanggalLahir );
                 pas.insertPasien(m);
+                this.Close();
         
             }
         }
