@@ -12,12 +12,11 @@ namespace Rumah_Sakit
 {
     public partial class frmRegisterPasien : Form
     {
-        Class.clsPasien pas = new Class.clsPasien();
+        public Class.clsPasien pas = new Class.clsPasien();
         public frmRegisterPasien()
         {
             InitializeComponent();
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
             Form frm = new frmRegisterPasien();
@@ -27,6 +26,7 @@ namespace Rumah_Sakit
 
         private void button2_Click(object sender, EventArgs e)
         {
+            pas.id = 5;
             pas.nama = txtNama.Text;
             pas.tanggalLahir = dtpTanggalLahir.Value.Date;
             pas.penyakit = rtxtKeluhan.Text;
@@ -40,14 +40,9 @@ namespace Rumah_Sakit
             else
             {
                 MessageBox.Show("Pendaftaran Pasien telah berhasil");
-                Class.clsPasien m = new Class.clsPasien(pas.id,pas.nama, pas.jenisKelamin,pas.penyakit,pas.alamat,pas.tanggalLahir );
-                pas.insertPasien(m);
-<<<<<<< HEAD
-                MessageBox.Show("Data berhasil di simpan");
-=======
-                this.Close();
->>>>>>> 58a28de7af8262d1fdfc3c1bdb85325b9066fc8a
-        
+                pas.insertPasien (pas.id,pas.nama, pas.jenisKelamin,pas.penyakit,pas.alamat,pas.tanggalLahir );
+                //MessageBox.Show(pas.pasien.Count().ToString());
+                //MessageBox.Show(pas.nama.ToString());
             }
             Form frm = new frmRegisterPasien();
             frm.Show();

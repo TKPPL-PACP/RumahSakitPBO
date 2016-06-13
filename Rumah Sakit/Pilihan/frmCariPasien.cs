@@ -11,10 +11,13 @@ using System.IO;
 
 namespace Rumah_Sakit.Pilihan
 {
+    
     public partial class frmCariPasien : Form
     {
+        private frmRegisterPasien fo;
         Class.modulFungsi func = new Class.modulFungsi();
-        Class.clsPasien pas = new Class.clsPasien();
+        Class.clsPasien pasien = new Class.clsPasien();
+        
         public frmCariPasien()
         {
             InitializeComponent();
@@ -54,6 +57,7 @@ namespace Rumah_Sakit.Pilihan
             dgvPasien.Rows.Add("3", "Astuti");
             dgvPasien.Rows.Add("3", "Deho");
             dgvPasien.AllowUserToAddRows = false;
+            //pasien.pasien = fo.pas.pasien;
         }
 
         private void dgvPasien_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -63,8 +67,9 @@ namespace Rumah_Sakit.Pilihan
 
         private void btnTampil_Click(object sender, EventArgs e)
         {
+            
             MessageBox.Show("Cari pada database");
-            pas.tampilPasien(dgvPasien);
+            pasien.tampilPasien(dgvPasien);
         }
     }
 }

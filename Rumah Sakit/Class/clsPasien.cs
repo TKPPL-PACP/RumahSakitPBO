@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Rumah_Sakit.Class
 {
-    class clsPasien
+    public class clsPasien
     {
-        public List<clsPasien> pasien = new List<clsPasien>();
+        public List<clsPasien> pasien;
         public enum gender 
         {
             Wanita = 0,
@@ -23,7 +23,9 @@ namespace Rumah_Sakit.Class
         public string alamat { set; get; }
         public DateTime tanggalLahir { set; get; }
         public clsPasien()
-        { }
+        {
+            pasien = new List<clsPasien>();
+        }
         public clsPasien(int id, string nama,gender jenisKelamin, string penyakit, 
                          string alamat, DateTime tanggalLahir)
         {
@@ -34,8 +36,10 @@ namespace Rumah_Sakit.Class
             this.alamat = alamat;
             this.tanggalLahir = tanggalLahir;
         }
-        public void insertPasien(clsPasien pas)
+        public void insertPasien(int id, string nama, gender jenisKelamin, string penyakit,
+                         string alamat, DateTime tanggalLahir)
         {
+            clsPasien pas = new clsPasien(id, nama, jenisKelamin, penyakit, alamat, tanggalLahir);
             //masukkan this ke dalam database
             //manual dengan class vvv
             pasien.Add(pas);
@@ -54,6 +58,7 @@ namespace Rumah_Sakit.Class
         }
         public void tampilPasien(DataGridView dgv)
         {
+            //MessageBox.Show(pasien.Count.ToString());
             for (int i = 0; i < pasien.Count; i++)
             {
                 dgv.Rows.Add(pasien[i].id);
