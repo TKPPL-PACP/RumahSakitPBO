@@ -37,5 +37,10 @@ namespace Rumah_Sakit
 
             
         }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Ambil data dari database!");
+        }
     }
 }

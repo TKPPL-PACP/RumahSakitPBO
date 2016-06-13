@@ -44,7 +44,6 @@
             this.btnCariResepObat = new System.Windows.Forms.Button();
             this.lblIDResepObat = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.btnSimpan = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvObat)).BeginInit();
             this.SuspendLayout();
             // 
@@ -129,7 +128,7 @@
             this.txtJumlahHarga.Name = "txtJumlahHarga";
             this.txtJumlahHarga.Size = new System.Drawing.Size(121, 20);
             this.txtJumlahHarga.TabIndex = 4;
-            this.txtJumlahHarga.Text = "Rp. 55.000";
+            this.txtJumlahHarga.TextChanged += new System.EventHandler(this.txtJumlahHarga_TextChanged);
             // 
             // btnHitung
             // 
@@ -139,10 +138,11 @@
             this.btnHitung.TabIndex = 5;
             this.btnHitung.Text = "Hitung";
             this.btnHitung.UseVisualStyleBackColor = true;
+            this.btnHitung.Click += new System.EventHandler(this.btnHitung_Click);
             // 
             // btnTebus
             // 
-            this.btnTebus.Location = new System.Drawing.Point(187, 402);
+            this.btnTebus.Location = new System.Drawing.Point(111, 404);
             this.btnTebus.Name = "btnTebus";
             this.btnTebus.Size = new System.Drawing.Size(75, 22);
             this.btnTebus.TabIndex = 6;
@@ -174,21 +174,11 @@
             this.textBox1.Size = new System.Drawing.Size(151, 20);
             this.textBox1.TabIndex = 9;
             // 
-            // btnSimpan
-            // 
-            this.btnSimpan.Location = new System.Drawing.Point(104, 402);
-            this.btnSimpan.Name = "btnSimpan";
-            this.btnSimpan.Size = new System.Drawing.Size(75, 23);
-            this.btnSimpan.TabIndex = 10;
-            this.btnSimpan.Text = "Simpan";
-            this.btnSimpan.UseVisualStyleBackColor = true;
-            // 
             // frmTransaksiObat
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(489, 437);
-            this.Controls.Add(this.btnSimpan);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.lblIDResepObat);
             this.Controls.Add(this.btnCariResepObat);
@@ -202,6 +192,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "frmTransaksiObat";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmTransaksiObat";
             this.Load += new System.EventHandler(this.frmTransaksiObat_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvObat)).EndInit();
@@ -228,6 +219,5 @@
         private System.Windows.Forms.Button btnCariResepObat;
         private System.Windows.Forms.Label lblIDResepObat;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button btnSimpan;
     }
 }

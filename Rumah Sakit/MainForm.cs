@@ -33,14 +33,24 @@ namespace Rumah_Sakit
 
         private void tambahObatToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form showForm = new frmObat();
-            showForm.Show();
+            if (this.MdiChildren.Length < 1)
+            {
+                Form showForm = new frmObat();
+                showForm.MdiParent = this;
+                showForm.Show();
+            }
+            
         }
 
         private void transaksiObatToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form showForm = new Pilihan.frmTransaksiObat();
-            showForm.Show();
+            if (this.MdiChildren.Length < 1)
+            {
+                Form showForm = new Pilihan.frmTransaksiObat();
+                showForm.MdiParent = this;
+                showForm.Show();
+            }
+            
         }
 
         private void tampilkanToolStripMenuItem_Click(object sender, EventArgs e)
@@ -49,62 +59,101 @@ namespace Rumah_Sakit
 
         private void janjiDokterToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form showForm = new frmAppointment();
-            showForm.Show();
+            if (this.MdiChildren.Length < 1)
+            {
+                Form showForm = new frmAppointment();
+                showForm.MdiParent = this;
+                showForm.Show();
+            }
+            
         }
 
         private void tambahKamarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form showForm = new frmKamar();
-            showForm.Show();
+            if (this.MdiChildren.Length < 1)
+            {
+                Form showForm = new frmKamar();
+                showForm.MdiParent = this;
+                showForm.Show();
+            }
+            
         }
 
         private void cariKamarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form showForm = new frmCariKamar();
-            showForm.Show();
+            if (this.MdiChildren.Length < 1)
+            {
+                Form showForm = new frmCariKamar();
+                showForm.MdiParent = this;
+                showForm.Show();
+            }
+            
         }
 
         private void detailKamarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form showForm = new frmDetailKamar();
-            showForm.Show();
+            if (this.MdiChildren.Length < 1)
+            {
+                Form showForm = new frmDetailKamar();
+                showForm.MdiParent = this;
+                showForm.Show();
+            }
+            
         }
 
         private void pasienToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form showForm = new Pilihan.frmCariPasien();
-            showForm.Show();
+            if (this.MdiChildren.Length < 1)
+            {
+                Form showForm = new Pilihan.frmCariPasien();
+                showForm.MdiParent = this;
+                showForm.Show();
+            }
+            
         }
 
         private void pegawaiToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form showForm = new Pilihan.frmCariPegawai();
-            showForm.Show();
+            if (this.MdiChildren.Length < 1)
+            {
+                Form showForm = new Pilihan.frmCariPegawai();
+                showForm.MdiParent = this;
+                showForm.Show();
+            }
         }
 
         private void pasienToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            Form showForm = new frmRegisterPasien();
-            showForm.Show();
+            if (this.MdiChildren.Length < 1)
+            {
+                Form showForm = new frmRegisterPasien();
+                showForm.MdiParent = this;
+                showForm.Show();
+            }
+            
         }
 
         private void pegawaiToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            Form showForm = new Pilihan.frmRegisterPegawai();
-            showForm.Show();
+            if (this.MdiChildren.Length < 1)
+            {
+                Form showForm = new Pilihan.frmRegisterPegawai();
+                showForm.MdiParent = this;
+                showForm.Show();
+            }
+            
         }
 
-        private void pembayaranToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Form showForm = new Pilihan.frmPembayaran();
-            showForm.Show();        
-        }
 
         private void rawatInapToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form showForm = new Pilihan.frmRawatInap();
-            showForm.Show();
+            if (this.MdiChildren.Length < 1)
+            {
+                Form showForm = new Pilihan.frmRawatInap();
+                showForm.MdiParent = this;
+                showForm.Show();
+            }
+            
         }
     }
 }

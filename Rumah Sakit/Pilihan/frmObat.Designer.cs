@@ -117,6 +117,7 @@
             this.btnSave.TabIndex = 7;
             this.btnSave.Text = "&Save";
             this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // rtxtDesc
             // 
@@ -219,6 +220,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "frmObat";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Obat";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

@@ -16,5 +16,11 @@ namespace Rumah_Sakit
         {
             InitializeComponent();
         }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Simpan data ke database");
+            this.Close();
+        }
     }
 }

@@ -90,12 +90,6 @@
     <Compile Include="Pilihan\frmDetailPembayaran.Designer.cs">
       <DependentUpon>frmDetailPembayaran.cs</DependentUpon>
     </Compile>
-    <Compile Include="Pilihan\frmPembayaran.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Pilihan\frmPembayaran.Designer.cs">
-      <DependentUpon>frmPembayaran.cs</DependentUpon>
-    </Compile>
     <Compile Include="Pilihan\frmRawatInap.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -119,12 +113,6 @@
     </Compile>
     <Compile Include="Pilihan\frmObat.Designer.cs">
       <DependentUpon>frmObat.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Pilihan\frmListTabel.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Pilihan\frmListTabel.Designer.cs">
-      <DependentUpon>frmListTabel.cs</DependentUpon>
     </Compile>
     <Compile Include="Pilihan\frmKamar.cs">
       <SubType>Form</SubType>
@@ -164,9 +152,6 @@
     <EmbeddedResource Include="Pilihan\frmDetailPembayaran.resx">
       <DependentUpon>frmDetailPembayaran.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Pilihan\frmPembayaran.resx">
-      <DependentUpon>frmPembayaran.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Pilihan\frmRawatInap.resx">
       <DependentUpon>frmRawatInap.cs</DependentUpon>
     </EmbeddedResource>
@@ -178,9 +163,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pilihan\frmObat.resx">
       <DependentUpon>frmObat.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Pilihan\frmListTabel.resx">
-      <DependentUpon>frmListTabel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pilihan\frmKamar.resx">
       <DependentUpon>frmKamar.cs</DependentUpon>

@@ -131,6 +131,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.btnCheckIn);
             this.Name = "frmRawatInap";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmRawatInap";
             this.ResumeLayout(false);
             this.PerformLayout();

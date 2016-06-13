@@ -25,5 +25,21 @@ namespace Rumah_Sakit.Pilihan
             dgvObat.AllowUserToAddRows = false;
             //MessageBox.Show((dgvObat.Rows[0].Cells[2].Value+ dgvObat.Rows[0].Cells[2].Value).toString());
         }
+
+        private void txtJumlahHarga_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btnHitung_Click(object sender, EventArgs e)
+        {
+            double hasil = 0;
+            for (int i = 0; i < dgvObat.Rows.Count; i++)
+            {
+                hasil += Convert.ToDouble(dgvObat.Rows[i].Cells[3].Value);
+            }
+            string kata = string.Format("Rp. {0:N2}", hasil);
+            txtJumlahHarga.Text = kata;
+        }
     }
 }
