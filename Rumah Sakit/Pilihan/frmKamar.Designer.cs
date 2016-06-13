@@ -118,6 +118,7 @@
             this.button2.TabIndex = 12;
             this.button2.Text = "&Ulang";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -127,6 +128,7 @@
             this.button3.TabIndex = 13;
             this.button3.Text = "&Kembali";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // numQty
             // 
@@ -152,6 +154,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Name = "frmKamar";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormKamar";
             ((System.ComponentModel.ISupportInitialize)(this.numQty)).EndInit();
             this.ResumeLayout(false);

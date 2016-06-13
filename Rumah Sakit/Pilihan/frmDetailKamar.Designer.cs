@@ -125,6 +125,7 @@
             this.label7.Size = new System.Drawing.Size(35, 13);
             this.label7.TabIndex = 20;
             this.label7.Text = "label7";
+            this.label7.Visible = false;
             // 
             // button1
             // 
@@ -134,6 +135,7 @@
             this.button1.TabIndex = 21;
             this.button1.Text = "&Kembali";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // frmDetailKamar
             // 
@@ -152,6 +154,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Name = "frmDetailKamar";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DetailKamar";
             ((System.ComponentModel.ISupportInitialize)(this.numQty)).EndInit();
             this.ResumeLayout(false);

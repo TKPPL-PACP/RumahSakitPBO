@@ -25,5 +25,10 @@ namespace Rumah_Sakit.Pilihan
             dgvDetailPembayaran.Rows.Add("4", "Kamar VIP", "1", "1500000");
             dgvDetailPembayaran.AllowUserToAddRows = false;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Print akan disesuaikan dengan format dan print melalu crystal report");
+        }
     }
 }

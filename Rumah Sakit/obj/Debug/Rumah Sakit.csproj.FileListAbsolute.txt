@@ -107,3 +107,10 @@ E:\mikroskil\Semester 4\Pemrograman\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sa
 E:\mikroskil\Semester 4\Pemrograman\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.Pilihan.frmPembayaran.resources
 E:\mikroskil\Semester 4\Pemrograman\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.Pilihan.frmRegisterPegawai.resources
 E:\mikroskil\Semester 4\Pemrograman\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.Pilihan.frmRawatInap.resources
+D:\kuliah\sem 4\pbo\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.Pilihan.frmCariPasien.resources
+D:\kuliah\sem 4\pbo\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.Pilihan.frmCariPegawai.resources
+D:\kuliah\sem 4\pbo\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.Pilihan.frmDetailPembayaran.resources
+D:\kuliah\sem 4\pbo\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.Pilihan.frmPembayaran.resources
+D:\kuliah\sem 4\pbo\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.Pilihan.frmRawatInap.resources
+D:\kuliah\sem 4\pbo\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.Pilihan.frmRegisterPegawai.resources
+D:\kuliah\sem 4\pbo\RumahSakitPBO\Rumah Sakit\obj\Debug\Rumah_Sakit.Pilihan.frmTransaksiObat.resources

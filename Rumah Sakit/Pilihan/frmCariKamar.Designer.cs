@@ -94,6 +94,7 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "&Cari";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label7
             // 
@@ -231,6 +232,7 @@
             this.button2.TabIndex = 22;
             this.button2.Text = "&Kembali";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // frmCariKamar
             // 
@@ -240,6 +242,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.tabControl1);
             this.Name = "frmCariKamar";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CariKamar";
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);

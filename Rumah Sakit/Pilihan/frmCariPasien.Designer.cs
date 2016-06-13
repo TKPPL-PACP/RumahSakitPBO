@@ -247,6 +247,7 @@
             this.Controls.Add(this.cboStatusPembayaran);
             this.Controls.Add(this.chkStatusPembayaran);
             this.Name = "frmCariPasien";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmPasien";
             this.Load += new System.EventHandler(this.frmPasien_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvPasien)).EndInit();

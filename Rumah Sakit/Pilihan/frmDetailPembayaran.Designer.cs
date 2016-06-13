@@ -82,6 +82,7 @@
             this.button1.TabIndex = 1;
             this.button1.Text = "Print";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // frmDetailPembayaran
             // 
@@ -91,6 +92,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dgvDetailPembayaran);
             this.Name = "frmDetailPembayaran";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmDetailPembayaran";
             this.Load += new System.EventHandler(this.frmDetailPembayaran_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvDetailPembayaran)).EndInit();
