@@ -16,8 +16,10 @@ namespace Rumah_Sakit.Class
         public int idPasien { private set; get; }
         public clsPembayaran()
         { }
-        public clsPembayaran(int idPasien, bool statusPembayaran, 
-                             double jumlahPembayaran, DateTime tanggalPembayaran)
+        public clsPembayaran(int idPasien,
+                             bool statusPembayaran,
+                             double jumlahPembayaran,
+                             DateTime tanggalPembayaran)
         {
             // this.id generate dari database
             this.statusPembayaran = statusPembayaran;
